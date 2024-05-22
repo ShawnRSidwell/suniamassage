@@ -2,13 +2,13 @@ import Button from "./Button";
 
 function Jumbotron() {
   return (
-    <section className="bg-cover bg-no-repeat bg-[url('/massage-background.jpg')] ">
-      <div className=" text-center w-dvw h-dvh">
-        <div className="">
-          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-blue-700 md:text-5xl lg:text-6xl">
+    <section className="bg-cover bg-no-repeat bg-[url('/massage-background.jpg')] bg-top">
+      <div className=" text-center w-full h-[100dvh] flex justify-center items-center">
+        <div className="bg-[#DFD4B9] w-3/4 rounded-3xl p-6 bg-opacity-90 shadow-lg">
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-[#60A76F] md:text-5xl lg:text-6xl">
             Lorem ipsum dolor
           </h1>
-          <p className="mb-8 text-lg font-normal text-blue-500 lg:text-xl sm:px-16 lg:px-48">
+          <p className="mb-8 text-lg font-normal  lg:text-xl sm:px-16 lg:px-48">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic
             delectus vel, ipsa id nihil sapiente nostrum vitae aliquam sit
             tempora, beatae numquam excepturi dolorum, neque autem natus
@@ -17,7 +17,7 @@ function Jumbotron() {
           <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
             <a
               href="#"
-              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-[#ACD793] hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
             >
               Book a massage
               <svg
@@ -38,7 +38,7 @@ function Jumbotron() {
             </a>
             <a
               href="#"
-              className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-blue-700  bg-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400"
+              className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium   bg-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400"
             >
               Learn more
             </a>
