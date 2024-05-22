@@ -45,7 +45,7 @@ function Header() {
           </div>
           {isMenuOpen && (
             <nav>
-              <ul className="flex flex-col items-center basis-full">
+              <ul className="flex flex-col items-center basis-full py-3 gap-3">
                 <li>
                   <Link to="/" className=" hover:text-gray-300 font-semibold">
                     Home
