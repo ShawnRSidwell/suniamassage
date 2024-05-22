@@ -1,9 +1,11 @@
+import Card from "../ui/Card";
 import Jumbotron from "../ui/Jumbotron";
 
 function Home() {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex flex-col justify-center items-center">
       <Jumbotron />
+      <Card />
     </div>
   );
 }
