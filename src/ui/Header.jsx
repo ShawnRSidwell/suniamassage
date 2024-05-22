@@ -7,22 +7,22 @@ function Header() {
       <nav className="flex items-center justify-start">
         <ul className="flex gap-5">
           <li>
-            <Link to="/" className=" hover:text-gray-300">
+            <Link to="/" className=" hover:text-gray-300 font-semibold">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/about" className=" hover:text-gray-300">
+            <Link to="/about" className=" hover:text-gray-300 font-semibold">
               About
             </Link>
           </li>
           <li>
-            <Link to="/services" className=" hover:text-gray-300">
+            <Link to="/services" className=" hover:text-gray-300 font-semibold">
               Services
             </Link>
           </li>
           <li>
-            <Link to="/contact" className=" hover:text-gray-300">
+            <Link to="/contact" className=" hover:text-gray-300 font-semibold">
               Contact
             </Link>
           </li>
