@@ -8,7 +8,7 @@ function Home() {
       className="flex flex-col justify-center items-center gap-3"
     >
       <Jumbotron />
-      <div className="flex gap-5 my-3">
+      <div className="md:flex md:gap-5 md:my-3">
         <Card image="/green-massage-oil.jpg" title="Explore Our Treatments">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa facilis
           dolores quis inventore nostrum repellat eligendi a, nesciunt cum sunt
