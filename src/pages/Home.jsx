@@ -3,10 +3,32 @@ import Jumbotron from "../ui/Jumbotron";
 
 function Home() {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <section
+      id="home"
+      className="flex flex-col justify-center items-center gap-3"
+    >
       <Jumbotron />
-      <Card />
-    </div>
+      <div className="flex gap-5 my-3">
+        <Card image="/green-massage-oil.jpg" title="Explore Our Treatments">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa facilis
+          dolores quis inventore nostrum repellat eligendi a, nesciunt cum sunt
+          nisi ipsum quia ipsam, maxime distinctio animi corporis aliquid
+          labore.
+        </Card>
+        <Card image="/massage-ingredients.jpg" title="Learn Our Methods">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa facilis
+          dolores quis inventore nostrum repellat eligendi a, nesciunt cum sunt
+          nisi ipsum quia ipsam, maxime distinctio animi corporis aliquid
+          labore.
+        </Card>
+        <Card image="/oil-flowers.jpg" title="Explore Our Treatments">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa facilis
+          dolores quis inventore nostrum repellat eligendi a, nesciunt cum sunt
+          nisi ipsum quia ipsam, maxime distinctio animi corporis aliquid
+          labore.
+        </Card>
+      </div>
+    </section>
   );
 }
 

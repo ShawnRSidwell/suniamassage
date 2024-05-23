@@ -30,7 +30,7 @@ function Header() {
     <>
       {isMobile ? (
         <header>
-          <div className="flex items-center justify-between w-full py-2">
+          <div className="flex items-center justify-between w-full py-2 bg-white md:h-[10dvh]">
             <div className="flex items-center gap-1 mx-4">
               <img className="w-10 h-10" src="/sunia-massage-icon.JPG" />
               <img className="w-28 h-12 py-2" src="/sunia-massage-title.JPG" />
@@ -80,18 +80,21 @@ function Header() {
           )}
         </header>
       ) : (
-        <header className="my-2 px-7 flex justify-between">
+        <header className="py-2 px-7 flex justify-between bg-white">
           <nav className="flex items-center justify-start">
             <ul className="flex gap-5">
               <li>
-                <Link to="/" className=" hover:text-gray-300 font-semibold">
+                <Link
+                  to="/"
+                  className=" hover:text-gray-300 font-semibold text-lg"
+                >
                   Home
                 </Link>
               </li>
               <li>
                 <Link
                   to="/about"
-                  className=" hover:text-gray-300 font-semibold"
+                  className=" hover:text-gray-300 font-semibold text-lg"
                 >
                   About
                 </Link>
@@ -99,7 +102,7 @@ function Header() {
               <li>
                 <Link
                   to="/services"
-                  className=" hover:text-gray-300 font-semibold"
+                  className=" hover:text-gray-300 font-semibold text-lg"
                 >
                   Services
                 </Link>
@@ -107,14 +110,14 @@ function Header() {
               <li>
                 <Link
                   to="/contact"
-                  className=" hover:text-gray-300 font-semibold"
+                  className=" hover:text-gray-300 font-semibold text-lg"
                 >
                   Contact
                 </Link>
               </li>
             </ul>
           </nav>
-          <div className="flex gap-3 items-center justify-center">
+          <div className="flex mx-3 items-center justify-center lg:mr-36">
             <img className="w-[100px] h-[80px]" src="/sunia-massage-icon.JPG" />
             <img
               className="w-[200px] h-[60px]"
@@ -122,7 +125,7 @@ function Header() {
             />
           </div>
           <div className="flex items-center">
-            <Button className={"h-1/2"}> Book Appointment</Button>
+            <Button className={"text-lg"}> Book Appointment</Button>
           </div>
         </header>
       )}
