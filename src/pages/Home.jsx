@@ -1,4 +1,5 @@
 import Card from "../ui/Card";
+import ElementCard from "../ui/ElementCard";
 import Jumbotron from "../ui/Jumbotron";
 
 function Home() {
@@ -8,6 +9,18 @@ function Home() {
       className="flex flex-col justify-center items-center gap-3"
     >
       <Jumbotron />
+      <div className="py-4 flex flex-col items-center">
+        <h1 className="text-4xl font-extrabold tracking-tight uppercase text-gray-700 p-4">
+          Harmonize the body and the soul with the Elements
+        </h1>
+        <div className="flex justify-center w-4/6 flex-wrap">
+          <ElementCard />
+          <ElementCard />
+          <ElementCard />
+          <ElementCard />
+          <ElementCard />
+        </div>
+      </div>
       <div className="mx-3 md:flex md:gap-5 md:my-3">
         <Card image="/green-massage-oil.jpg" title="Meet Your Practictioner">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa facilis
