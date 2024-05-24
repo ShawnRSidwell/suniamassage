@@ -1,6 +1,5 @@
 import Card from "../ui/Card";
 import Jumbotron from "../ui/Jumbotron";
-import Panel from "../ui/Panel";
 
 function Home() {
   return (
@@ -34,7 +33,7 @@ function Home() {
           labore.
         </Card>
       </div>
-      <hr className="border-[#60A76F] w-11/12 " />
+      <hr className="border-[#60A76F] w-11/12 md:hidden" />
       {/* <Panel headline="book an appointment" buttonText="Schedule Appointment">
         For Consultations, Body Therapies and Energetic Coaching
       </Panel> */}
