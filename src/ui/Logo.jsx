@@ -1,4 +1,4 @@
-function Logo({ size, includeIcon = true }) {
+function Logo({ size, className, includeIcon = true }) {
   let iconSize;
   let textSize;
   switch (size) {
@@ -20,7 +20,7 @@ function Logo({ size, includeIcon = true }) {
       break;
   }
   return (
-    <div className="flex items-center gap-1">
+    <div className={`flex items-center gap-1 ${className}`}>
       {includeIcon && (
         <img className={iconSize} src="/sunia-massage-icon.JPG" alt="icon" />
       )}

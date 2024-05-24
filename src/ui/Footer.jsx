@@ -4,9 +4,9 @@ function Footer() {
   return (
     <footer className="p-4 bg-white sm:p-6">
       <div className="mx-auto max-w-screen-xl">
-        <div className="md:flex md:justify-between">
+        <div className="flex justify-center gap-11 md:gap-0 md:justify-between">
           <div className="mb-6 md:mb-0">
-            <Logo size="med" includeIcon={false} />
+            <Logo className="mb-1" size="med" includeIcon={false} />
             <div className="ml-1 text-gray-500">
               <p>2 Canterbury St.</p>
               <p> Portland, OR 97224</p>
@@ -23,13 +23,14 @@ function Footer() {
           </div>
 
           <div>
-            <h2 className="mb-6 text-lg font-bold text-gray-900 uppercase tracking-wider">
+            <h2 className="mb-3 text-lg font-bold text-gray-900 uppercase tracking-wider">
               Hours
             </h2>
             <ul className="text-gray-500 dark:text-gray-400">
               <li>W 8:30am-11:30am</li>
               <li>Th and F 8:30am-1pm</li>
-              <li>Evenings & Weekends Upon Request</li>
+              <li>Evenings & Weekends</li>
+              <li>Upon Request</li>
             </ul>
           </div>
         </div>
