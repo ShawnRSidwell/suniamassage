@@ -7,7 +7,14 @@ function About() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
         dignissimos est amet vero, voluptatum placeat architecto inventore,
         eaque ipsa incidunt ipsam officiis tempore sunt necessitatibus autem
-        laboriosam aspernatur? Dicta, distinctio.
+        laboriosam aspernatur? Dicta, distinctio. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Quia, dignissimos est amet vero,
+        voluptatum placeat architecto inventore, eaque ipsa incidunt ipsam
+        officiis tempore sunt necessitatibus autem laboriosam aspernatur? Dicta,
+        distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Quia, dignissimos est amet vero, voluptatum placeat architecto
+        inventore, eaque ipsa incidunt ipsam officiis tempore sunt
+        necessitatibus autem laboriosam aspernatur? Dicta, distinctio.
       </Hero>
     </section>
   );

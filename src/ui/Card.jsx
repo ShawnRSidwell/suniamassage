@@ -4,7 +4,7 @@ function Card({ image, title, reverse = false, children }) {
   return (
     <a
       href="#"
-      className={` flex items-center bg-white md:border md:border-gray-200 rounded-lg md:shadow md:flex-row md:max-w-xl my-9 shadow  ${
+      className={` flex items-center bg-white md:border md:border-gray-200 rounded-lg md:shadow md:flex-row md:max-w-xl my-9 md:my-0  shadow  ${
         reverse ? "flex-row-reverse md:flex-none mr-[.5rem]" : ""
       }`}
     >
