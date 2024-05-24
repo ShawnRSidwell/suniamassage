@@ -34,8 +34,8 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <hr className="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
-        <div className="flex justify-around sm:items-center md:justify-between">
+        <hr className="hidden md:block my-6 border-gray-200 sm:mx-auto  lg:my-8" />
+        <div className="my-6 flex justify-around sm:items-center md:justify-between md:my-0">
           <span className="text-sm text-gray-500 sm:text-center ">
             © 2024{" "}
             <a href="https://flowbite.com" className="hover:underline">
