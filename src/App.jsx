@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import Header from "./ui/Header";
 import About from "./pages/About";
+import Footer from "./ui/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="home" element={<Home />} />
         <Route path="about" element={<About />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

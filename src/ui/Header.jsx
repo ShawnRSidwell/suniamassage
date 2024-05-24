@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Button from "./Button";
 import { useEffect, useState } from "react";
 import { AiFillCloseCircle, AiOutlineMenu } from "react-icons/ai";
+import Logo from "./Logo";
 
 function Header() {
   const [windowDimension, setWindowDimension] = useState(null);
@@ -31,10 +32,7 @@ function Header() {
       {isMobile ? (
         <header>
           <div className="flex items-center justify-between w-full py-2 bg-white md:h-[10dvh]">
-            <div className="flex items-center gap-1 mx-4">
-              <img className="w-10 h-10" src="/sunia-massage-icon.JPG" />
-              <img className="w-28 h-12 py-2" src="/sunia-massage-title.JPG" />
-            </div>
+            <Logo size="large" />
             <button className="px-3" onClick={toggleMenu}>
               {isMenuOpen ? (
                 <AiFillCloseCircle color="grey" size="1.8em" />
