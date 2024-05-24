@@ -11,7 +11,7 @@ function Home() {
         <h1 className="text-4xl font-extrabold tracking-tight uppercase text-gray-700 p-4 text-center">
           Harmonize the body and the soul with the Elements
         </h1>
-        <div className="flex justify-center w-11/12 gap-4 md:w-4/6 flex-wrap py-3 ">
+        <div className="flex justify-center w-11/12 gap-5 md:w-4/6 flex-wrap py-3 ">
           <ElementCard headline="Air" image="/air-element.png">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus,
             eligendi. Architecto ad quis aut optio. Non, quod enim! Earum maxime
