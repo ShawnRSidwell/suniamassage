@@ -8,10 +8,10 @@ function Home() {
     <section id="home">
       <Jumbotron />
       <div className="py-8 flex flex-col items-center">
-        <h1 className="text-4xl font-extrabold tracking-tight uppercase text-gray-700 p-4 text-center">
-          Harmonize the body and the soul with the Elements
+        <h1 className="text-3xl mx-3 md:text-4xl font-extrabold tracking-tight uppercase text-gray-700 md:p-4 text-center">
+          Harmonize the body and soul with the Elements
         </h1>
-        <div className="flex justify-center w-11/12 gap-5 md:w-4/6 flex-wrap py-3 ">
+        <div className="py-6 flex justify-around md:justify-center md:gap-5 w-11/12 md:w-4/6  md:py-3 ">
           <ElementCard headline="Air" image="/air-element.png">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus,
             eligendi. Architecto ad quis aut optio. Non, quod enim! Earum maxime
@@ -27,6 +27,8 @@ function Home() {
             eligendi. Architecto ad quis aut optio. Non, quod enim! Earum maxime
             fugiat ratione nisi.
           </ElementCard>
+        </div>
+        <div className="flex  justify-around md:justify-center  w-2/3  md:gap-5 md:w-4/6  py-3">
           <ElementCard headline="Fire" image="/fire-element.png">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus,
             eligendi. Architecto ad quis aut optio. Non, quod enim! Earum maxime
