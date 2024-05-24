@@ -19,7 +19,7 @@ function Card({ image, title, reverse = false, children }) {
       />
       <div
         className={`px-3 w-1/2 mx-4 flex flex-col justify-between md:p-4 leading-normal ${
-          reverse ? "mx-0 z-1" : ""
+          reverse ? "mx-0 z-1 pb-4" : ""
         }`}
       >
         <h5 className="mb-2 mt-4 text-2xl font-extrabold tracking-wider  md:font-bold text-gray-700 ">
