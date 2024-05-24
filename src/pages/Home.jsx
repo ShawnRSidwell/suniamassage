@@ -1,13 +1,11 @@
 import Card from "../ui/Card";
 import ElementCard from "../ui/ElementCard";
 import Jumbotron from "../ui/Jumbotron";
+import Panel from "../ui/Panel";
 
 function Home() {
   return (
-    <section
-      id="home"
-      className="flex flex-col justify-center items-center gap-3"
-    >
+    <section id="home">
       <Jumbotron />
       <div className="py-8 flex flex-col items-center">
         <h1 className="text-4xl font-extrabold tracking-tight uppercase text-gray-700 p-4 text-center">
@@ -41,7 +39,7 @@ function Home() {
           </ElementCard>
         </div>
       </div>
-      <div className="mx-3 md:flex md:gap-5 md:my-3">
+      <div className="mx-3 md:flex md:gap-5 md:my-3 md:items-center md:justify-center">
         <Card image="/green-massage-oil.jpg" title="Meet Your Practictioner">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa facilis
           dolores quis inventore nostrum repellat eligendi a, nesciunt cum sunt
@@ -66,10 +64,22 @@ function Home() {
           labore.
         </Card>
       </div>
-      <hr className="border-[#60A76F] w-11/12 md:hidden" />
-      {/* <Panel headline="book an appointment" buttonText="Schedule Appointment">
-        For Consultations, Body Therapies and Energetic Coaching
-      </Panel> */}
+      <div className="my-6 relative flex flex-col justify-center items-center md:py-24 md:my-12">
+        <hr className="border-[#60A76F] w-5/6 md:hidden" />
+        <img
+          src="blue-flowers-oils-above.jpg"
+          alt="blue flowers and oil"
+          className="hidden md:block absolute inset-0 w-full h-full object-cover z-0 opacity-50 "
+        />
+        <Panel
+          headline="Find The New You"
+          buttonText="Schedule Appointment"
+          className="mb-5 relative z-10"
+        >
+          <p>For Consultations, Body Therapies and Energetic Coaching</p>
+        </Panel>
+        <hr className="border-[#60A76F] w-5/6 md:hidden" />
+      </div>
     </section>
   );
 }
