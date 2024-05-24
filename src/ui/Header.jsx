@@ -31,9 +31,9 @@ function Header() {
     <>
       {isMobile ? (
         <header>
-          <div className="flex items-center justify-between w-full py-2 bg-white md:h-[10dvh]">
+          <div className="flex items-center justify-between py-2 bg-white md:h-[10dvh] mx-5">
             <Logo size="large" />
-            <button className="px-3" onClick={toggleMenu}>
+            <button onClick={toggleMenu}>
               {isMenuOpen ? (
                 <AiFillCloseCircle color="grey" size="1.8em" />
               ) : (
