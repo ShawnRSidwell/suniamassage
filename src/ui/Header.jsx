@@ -43,9 +43,9 @@ function Header() {
           </div>
           {isMenuOpen && (
             <nav>
-              <ul className="flex flex-col items-center basis-full py-3 gap-3">
+              <ul className="flex flex-col items-center basis-full py-3 gap-3 ">
                 <li>
-                  <Link to="/" className=" hover:text-gray-300 font-semibold">
+                  <Link to="/" className=" hover:text-gray-300 font-semibold ">
                     Home
                   </Link>
                 </li>
@@ -78,7 +78,7 @@ function Header() {
           )}
         </header>
       ) : (
-        <header className="py-2 px-7 flex justify-between bg-white">
+        <header className="py-2 px-7 flex justify-between bg-white text-[#534b89]">
           <nav className="flex items-center justify-start">
             <ul className="flex gap-5">
               <li>

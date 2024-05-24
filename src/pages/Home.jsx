@@ -31,22 +31,18 @@ function Home() {
         <div className="flex  justify-around md:justify-center  w-2/3  md:gap-5 md:w-4/6  py-3">
           <ElementCard headline="Fire" image="/fire-element.png">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus,
-            eligendi. Architecto ad quis aut optio. Non, quod enim! Earum maxime
-            fugiat ratione nisi.
+            eligendi.
           </ElementCard>
           <ElementCard headline="Space" image="/space-element.png">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus,
-            eligendi. Architecto ad quis aut optio. Non, quod enim! Earum maxime
-            fugiat ratione nisi.
+            eligendi.
           </ElementCard>
         </div>
       </div>
       <div className="mx-3 md:flex md:gap-5 md:my-3 md:items-center md:justify-center">
         <Card image="/green-massage-oil.jpg" title="Meet Your Practictioner">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa facilis
-          dolores quis inventore nostrum repellat eligendi a, nesciunt cum sunt
-          nisi ipsum quia ipsam, maxime distinctio animi corporis aliquid
-          labore.
+          dolores quis inventore nostrum repellat eligendi.
         </Card>
 
         <Card
@@ -55,15 +51,11 @@ function Home() {
           reverse={true}
         >
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa facilis
-          dolores quis inventore nostrum repellat eligendi a, nesciunt cum sunt
-          nisi ipsum quia ipsam, maxime distinctio animi corporis aliquid
-          labore.
+          dolores quis inventore nostrum repellat eligendi.
         </Card>
         <Card image="/massage-ingredients.jpg" title="Learn Our Methods">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa facilis
-          dolores quis inventore nostrum repellat eligendi a, nesciunt cum sunt
-          nisi ipsum quia ipsam, maxime distinctio animi corporis aliquid
-          labore.
+          dolores quis inventore nostrum repellat eligendi.
         </Card>
       </div>
       <div className="my-6 relative flex flex-col justify-center items-center md:py-24 md:my-12">

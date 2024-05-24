@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 function Card({ image, title, reverse = false, children }) {
   return (
     <a
@@ -9,7 +11,7 @@ function Card({ image, title, reverse = false, children }) {
       <img
         className={`w-1/2 h-72 rounded-lg  md:object-cover  md:rounded-t-lg md:h-96  md:w-48 md:rounded-none md:rounded-s-lg shadow-md ${
           reverse
-            ? "rounded-r-none  mr-[.5rem] z-0 object-cover transform scale-x-[-1]  "
+            ? "rounded-r-none  mr-[.5rem] z-0 object-cover transform scale-x-[-1]  md:scale-x-[1]"
             : "rounded-r-none "
         }`}
         src={image}
@@ -24,6 +26,7 @@ function Card({ image, title, reverse = false, children }) {
           {title}
         </h5>
         <p className="mb-3 text-sm md:text-base text-gray-500 ">{children}</p>
+        <Button className="bg-[#756DAF]">Click Me</Button>
       </div>
     </a>
   );
