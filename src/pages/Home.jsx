@@ -7,7 +7,7 @@ function Home() {
   return (
     <section id="home">
       <Jumbotron />
-      <div className="py-8 flex flex-col items-center">
+      <div className="py-8 flex flex-col items-center my-7">
         <h1 className="text-3xl mx-3 md:text-4xl font-extrabold tracking-tight uppercase text-gray-700 md:p-4 text-center">
           Harmonize the body and soul with the Elements
         </h1>
@@ -39,7 +39,7 @@ function Home() {
           </ElementCard>
         </div>
       </div>
-      <div className="mx-3 md:flex md:gap-5 md:my-3 md:items-center md:justify-center">
+      <div className="mx-3 md:flex md:gap-5 md:items-center md:justify-center">
         <Card image="/green-massage-oil.jpg" title="Meet Your Practictioner">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa facilis
           dolores quis inventore nostrum repellat eligendi.
@@ -59,7 +59,7 @@ function Home() {
         </Card>
       </div>
       <div className="my-6 relative flex flex-col justify-center items-center md:py-24 md:my-12">
-        <hr className="border-[#60A76F] w-5/6 md:hidden" />
+        {/* <hr className="border-[#60A76F] w-5/6 md:hidden" /> */}
         <img
           src="blue-flowers-oils-above.jpg"
           alt="blue flowers and oil"

@@ -22,10 +22,12 @@ function Card({ image, title, reverse = false, children }) {
           reverse ? "mx-0 z-1" : ""
         }`}
       >
-        <h5 className="mb-2 mt-4 text-2xl font-bold tracking-tight text-gray-700 ">
+        <h5 className="mb-2 mt-4 text-2xl font-extrabold tracking-wider  md:font-bold text-gray-700 ">
           {title}
         </h5>
-        <p className="mb-3 text-sm md:text-base text-gray-500 ">{children}</p>
+        <p className="mb-3 text-sm md:text-base text-gray-500 tracking-tight md:tracking-normal">
+          {children}
+        </p>
         <Button className="bg-[#756DAF]">Click Me</Button>
       </div>
     </a>
