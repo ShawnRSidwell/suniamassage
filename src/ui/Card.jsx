@@ -4,14 +4,14 @@ function Card({ image, title, reverse = false, children }) {
   return (
     <a
       href="#"
-      className={` flex items-center bg-white md:border md:border-gray-200 rounded-lg md:shadow md:flex-row md:max-w-xl   ${
-        reverse ? "flex-row-reverse md:flex-none" : ""
+      className={` flex items-center bg-white md:border md:border-gray-200 rounded-lg md:shadow md:flex-row md:max-w-xl my-9 shadow  ${
+        reverse ? "flex-row-reverse md:flex-none mr-[.5rem]" : ""
       }`}
     >
       <img
         className={`w-1/2 h-72 rounded-lg  md:object-cover  md:rounded-t-lg md:h-96  md:w-48 md:rounded-none md:rounded-s-lg shadow-md ${
           reverse
-            ? "rounded-r-none  mr-[.5rem] z-0 object-cover transform scale-x-[-1]  md:scale-x-[1]"
+            ? "rounded-r-none   z-0 object-cover transform scale-x-[-1]  md:scale-x-[1]"
             : "rounded-r-none "
         }`}
         src={image}
