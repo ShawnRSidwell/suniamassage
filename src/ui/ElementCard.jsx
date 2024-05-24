@@ -1,15 +1,12 @@
-function ElementCard() {
+function ElementCard({ headline, image, children }) {
   return (
-    <div className="flex flex-col items-center justify-center w-60 p-5">
-      <img className="w-14 h-12" src="/air-element.png" alt="wind element" />
-      <p className="text-gray-500 font-semibold tracking-wider text-2xl text-center py-2">
-        Air
+    <div className=" flex flex-col items-center justify-center md:w-80 md:px-6 md:py-7">
+      <img className="w-10 h-10 md:w-14 md:h-12" src={image} alt={headline} />
+      <p className="text-gray-500 font-semibold tracking-wider text-2xl  py-2 text-center">
+        {headline}
       </p>
-      <p className="text-center text-gray-700">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at
-        distinctio tenetur Lorem ipsum dolor sit amet consectetur adipisicing
-        elit.
-      </p>
+
+      <p className="hidden md:block text-center text-gray-700">{children}</p>
     </div>
   );
 }
