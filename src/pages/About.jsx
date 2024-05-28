@@ -3,6 +3,7 @@ import Headline from "../ui/Headline";
 import Hero from "../ui/Hero";
 import Icon from "../ui/Icon";
 import LargeCard from "../ui/LargeCard";
+import Panel from "../ui/Panel";
 
 function About() {
   return (
@@ -103,6 +104,15 @@ function About() {
           </div>
         </LargeCard>
       </div>
+      <hr className="border-[#60A76F] w-5/6 md:hidden mx-auto" />
+      <Panel
+        headline="Schedule an appointment today!"
+        buttonText="Schedule Appointment"
+        className="mb-5 relative z-10"
+      >
+        <p>For Consultations, Body Therapies and Energetic Coaching</p>
+      </Panel>
+      <hr className="border-[#60A76F] w-5/6 md:hidden mx-auto" />
     </section>
   );
 }
