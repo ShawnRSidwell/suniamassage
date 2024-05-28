@@ -35,13 +35,13 @@ function About() {
           inventore, eaque ipsa incidunt ipsam officiis tempore sunt
           necessitatibus autem laboriosam aspernatur Dicta, distinctio.
         </p>
-        <img src="doshas.PNG" className="md:w-[500px] md:h-[400px] mx-auto" />
         <p className="mx-auto p-5">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
           necessitatibus corporis recusandae ex eaque vero maiores. Ratione
           exercitationem harum, debitis repellat voluptas omnis? Alias qui illum
           doloribus ipsa facere blanditiis.
         </p>
+        <img src="doshas.PNG" className="md:w-[500px] md:h-[400px] mx-auto" />
 
         {/* <div className="py-6 mx-auto md:justify-center md:gap-5 w-11/12 md:w-4/6  md:py-3 ">
           <div className="flex flex-col items-center justify-center">
