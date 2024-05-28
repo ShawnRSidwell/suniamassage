@@ -1,4 +1,5 @@
 import Hero from "../ui/Hero";
+import LargeCard from "../ui/LargeCard";
 
 function About() {
   return (
@@ -16,6 +17,7 @@ function About() {
         inventore, eaque ipsa incidunt ipsam officiis tempore sunt
         necessitatibus autem laboriosam aspernatur? Dicta, distinctio.
       </Hero>
+      <LargeCard />
     </section>
   );
 }

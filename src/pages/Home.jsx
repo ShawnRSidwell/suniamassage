@@ -1,5 +1,6 @@
 import Card from "../ui/Card";
 import ElementCard from "../ui/ElementCard";
+import Headline from "../ui/Headline";
 import Jumbotron from "../ui/Jumbotron";
 import Panel from "../ui/Panel";
 
@@ -8,9 +9,7 @@ function Home() {
     <section id="home">
       <Jumbotron />
       <div className="py-8 flex flex-col items-center my-7">
-        <h1 className="text-3xl mx-3 md:text-4xl font-extrabold tracking-tight uppercase text-gray-700 md:p-4 text-center">
-          Harmonize the body and soul with the five Elements
-        </h1>
+        <Headline>Harmonize the body and soul with the five Elements</Headline>
         <div className="py-6 flex justify-around md:justify-center md:gap-5 w-11/12 md:w-4/6  md:py-3 ">
           <ElementCard headline="Air" image="/air-element.png">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus,
