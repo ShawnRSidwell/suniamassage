@@ -1,6 +1,8 @@
-function Headline({ children }) {
+function Headline({ className, children }) {
   return (
-    <h1 className="text-3xl mx-3 md:text-4xl font-extrabold tracking-tight uppercase text-gray-700 md:p-4 text-center">
+    <h1
+      className={`text-3xl md:text-4xl font-extrabold tracking-tight uppercase text-gray-700  ${className}`}
+    >
       {children}
     </h1>
   );
