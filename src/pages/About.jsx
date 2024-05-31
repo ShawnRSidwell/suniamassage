@@ -69,7 +69,7 @@ function About() {
         </LargeCard>
       </div>
       <div className="mx-auto px-3 mb md:px-0 w-11/12 md:w-full flex flex-col items-center justify-center bg-white h-[60dvh] md:py-9 shadow md:shadow-none">
-        <Headline className="">Further Research</Headline>
+        <Headline className="">Further Reading</Headline>
         <hr className="border-[#60A76F] w-1/4 border-2 my-3" />
         <ul className="text-left py-8 flex flex-col gap-8">
           <li>
