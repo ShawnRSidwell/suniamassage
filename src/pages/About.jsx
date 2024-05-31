@@ -8,7 +8,7 @@ import Panel from "../ui/Panel";
 function About() {
   return (
     <section id="about">
-      <Hero headline="Get to know me!" image="/LinkedInPhoto Final.jpg">
+      <Hero headline="About Me" image="/LinkedInPhoto Final.jpg">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
         dignissimos est amet vero, voluptatum placeat architecto inventore,
         eaque ipsa incidunt ipsam officiis tempore sunt necessitatibus autem
@@ -26,56 +26,20 @@ function About() {
           What Is Ayurveda Massage?
         </Headline>
         <hr className="border-[#60A76F] w-1/3 mx-auto border-2 my-3" />
-        <p className=" md:max-w-screen-2xl mx-auto px-4">
+        <p className=" md:max-w-screen-2xl mx-auto px-4 text-gray-600">
           {" "}
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sed
           laborum similique ea, adipisci a odit saepe nesciunt iure repudiandae
           commodi labore suscipit distinctio! Nisi tempore blanditiis itaque
-          eveniet. Ullam? Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Quia, dignissimos est amet vero, voluptatum placeat architecto
+          eveniet. Ullam? Lorem ipsum dolor sit amet consectetur adipisicing.
+          <img
+            src="doshas.PNG"
+            className="md:w-[500px] md:h-[400px] mx-auto "
+          />
+          Quia, dignissimos est amet vero, voluptatum placeat architecto
           inventore, eaque ipsa incidunt ipsam officiis tempore sunt
           necessitatibus autem laboriosam aspernatur Dicta, distinctio.
         </p>
-        <p className="mx-auto p-5">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
-          necessitatibus corporis recusandae ex eaque vero maiores. Ratione
-          exercitationem harum, debitis repellat voluptas omnis? Alias qui illum
-          doloribus ipsa facere blanditiis.
-        </p>
-        <img src="doshas.PNG" className="md:w-[500px] md:h-[400px] mx-auto" />
-
-        {/* <div className="py-6 mx-auto md:justify-center md:gap-5 w-11/12 md:w-4/6  md:py-3 ">
-          <div className="flex flex-col items-center justify-center">
-            <p className="text-[#497e54] font-extrabold tracking-widest text-4xl text-center">
-              Earth
-            </p>
-            <img
-              className="h-28 w-25"
-              src="/earth-circle-icon.JPG"
-              alt="Earth"
-            />
-            <p className="text-center">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id
-              labore natus quae assumenda pariatur ab eius culpa neque enim
-              quisquam expedita tempora quos quas, quo dolores sapiente.
-              Blanditiis, nam aperiam.
-            </p>
-          </div>
-        </div>
-        <div className="py-6 mx-auto md:justify-center md:gap-5 w-11/12 md:w-4/6  md:py-3 ">
-          <div className="flex flex-col items-center justify-center">
-            <p className="text-[#063970] font-extrabold tracking-widest text-4xl text-center">
-              Air
-            </p>
-            <img className="h-28 w-25" src="/air-circle-icon.JPG" alt="Earth" />
-            <p className="text-center">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id
-              labore natus quae assumenda pariatur ab eius culpa neque enim
-              quisquam expedita tempora quos quas, quo dolores sapiente.
-              Blanditiis, nam aperiam.
-            </p>
-          </div>
-        </div> */}
       </div>
       <div className="md:bg-gradient-to-r from-[#938ccf] to-[#b0a4e3] md:bg-[#938ccf] py-9">
         <LargeCard
@@ -97,21 +61,73 @@ function About() {
           <p className="w-11/12 py-3 md:py-7 text-2xl tracking-wider font-semibold text-gray-600">
             Relief from the following:
           </p>
-          <div className="flex justify-around h-full  md:gap-3 md:mx-16 text-gray-800">
+          <div className="flex justify-around h-full md:gap-3 md:mx-16 text-gray-800">
             <Icon size="3em"> Stress</Icon>
             <Icon size="3em"> Aches</Icon>
             <Icon size="3em">Anxiety</Icon>
           </div>
         </LargeCard>
       </div>
-      <hr className="border-[#60A76F] w-5/6 md:hidden mx-auto" />
-      <Panel
-        headline="Schedule an appointment today!"
-        buttonText="Schedule Appointment"
-        className="mb-5 relative z-10"
-      >
-        <p>For Consultations, Body Therapies and Energetic Coaching</p>
-      </Panel>
+      <div className="mx-auto px-3 mb md:px-0 w-11/12 md:w-full flex flex-col items-center justify-center bg-white h-[60dvh] md:py-9 shadow md:shadow-none">
+        <Headline className="">Further Research</Headline>
+        <hr className="border-[#60A76F] w-1/4 border-2 my-3" />
+        <ul className="text-left py-8 flex flex-col gap-8">
+          <li>
+            <p className="font-bold">
+              Pilot study investigating the effects of Ayurvedic Abhyanga
+              massage on subjective stress experience
+            </p>
+            <p className="">PubMed</p>
+            <a
+              className="text-blue-600 underline text-sm md:text-base"
+              href="https://pubmed.ncbi.nlm.nih.gov/21568717/"
+            >
+              https://pubmed.ncbi.nlm.nih.gov/21568717/
+            </a>
+          </li>
+          <li>
+            <p className="font-bold">
+              A prospective study on the effects of Ayurvedic massage in
+              post-stroke patients
+            </p>
+            <p className="">National Library of Medicine</p>
+            <a
+              className="text-blue-600 underline text-sm md:text-base "
+              href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6598790/"
+            >
+              https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6598790/
+            </a>
+          </li>
+          <li>
+            <p className="font-bold">
+              Pilot study investigating the effects of Ayurvedic Abhyanga
+              massage on subjective stress experience
+            </p>
+            <p className="">PubMed</p>
+            <a
+              className="text-blue-600 underline text-sm md:text-base"
+              href="https://pubmed.ncbi.nlm.nih.gov/21568717/"
+            >
+              https://pubmed.ncbi.nlm.nih.gov/21568717/
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div className="my-6 relative flex flex-col justify-center items-center md:py-24 md:my-12">
+        <img
+          src="blue-flowers-oils-above.jpg"
+          alt="blue flowers and oil"
+          className="hidden md:block absolute inset-0 w-full h-full object-cover z-0 opacity-50 "
+        />
+        <Panel
+          headline="Find The New You"
+          buttonText="Schedule Appointment"
+          className="mb-5 relative z-10"
+        >
+          <p>For Consultations, Body Therapies and Energetic Coaching</p>
+        </Panel>
+      </div>
       <hr className="border-[#60A76F] w-5/6 md:hidden mx-auto" />
     </section>
   );

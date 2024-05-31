@@ -7,9 +7,9 @@ import PricingCard from "../ui/PricingCard";
 function Services() {
   return (
     <section id="services">
-      <h1 className="text-[4em] md:text-[5em] font-light tracking-tight text-center uppercase w-full  ">
+      <h1 className="text-[4em] md:text-[5em] font-thin tracking-tight text-center uppercase w-full font-serif">
         <span className="font-normal tracking-[-15px] mx-3">----</span>
-        Services
+        Remedies
         <span className="font-normal tracking-[-15px] mx-3">----</span>
       </h1>
       <Box headline="Ayurvedic Massage" className="">
