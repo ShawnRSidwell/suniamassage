@@ -63,7 +63,7 @@ function Services() {
           <PricingCard />
         </div>
       </div>
-      <hr className="border-[#60A76F] w-5/6 my-5 md:hidden mx-auto" />
+      <hr className="border-[#60A76F] w-5/6 my-5 mx-auto " />
     </section>
   );
 }

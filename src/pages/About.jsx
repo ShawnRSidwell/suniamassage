@@ -9,17 +9,19 @@ function About() {
   return (
     <section id="about">
       <Hero headline="About Me" image="/LinkedInPhoto Final.jpg">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
-        dignissimos est amet vero, voluptatum placeat architecto inventore,
-        eaque ipsa incidunt ipsam officiis tempore sunt necessitatibus autem
-        laboriosam aspernatur? Dicta, distinctio. Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Quia, dignissimos est amet vero,
-        voluptatum placeat architecto inventore, eaque ipsa incidunt ipsam
-        officiis tempore sunt necessitatibus autem laboriosam aspernatur? Dicta,
-        distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Quia, dignissimos est amet vero, voluptatum placeat architecto
-        inventore, eaque ipsa incidunt ipsam officiis tempore sunt
-        necessitatibus autem laboriosam aspernatur? Dicta, distinctio.
+        <p className="leading-5 md:leading-8">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+          dignissimos est amet vero, voluptatum placeat architecto inventore,
+          eaque ipsa incidunt ipsam officiis tempore sunt necessitatibus autem
+          laboriosam aspernatur? Dicta, distinctio. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Quia, dignissimos est amet vero,
+          voluptatum placeat architecto inventore, eaque ipsa incidunt ipsam
+          officiis tempore sunt necessitatibus autem laboriosam aspernatur?
+          Dicta, distinctio. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Quia, dignissimos est amet vero, voluptatum placeat architecto
+          inventore, eaque ipsa incidunt ipsam officiis tempore sunt
+          necessitatibus autem laboriosam aspernatur? Dicta, distinctio.
+        </p>
       </Hero>
       <div className="md:py-9 max-w-screen-xl mx-auto">
         <Headline className="mx-3 text-center ">
@@ -41,7 +43,7 @@ function About() {
           necessitatibus autem laboriosam aspernatur Dicta, distinctio.
         </p>
       </div>
-      <div className="md:bg-gradient-to-r from-[#938ccf] to-[#b0a4e3] md:bg-[#938ccf] py-9">
+      <div className="md:bg-gradient-to-r from-[#938ccf] to-[#b0a4e3] md:bg-[#938ccf] my-9">
         <LargeCard
           headline="Benefits from Ayurveda Massage"
           image="/massage-jumbo.jpg"
@@ -68,11 +70,11 @@ function About() {
           </div>
         </LargeCard>
       </div>
-      <div className="mx-auto px-3 mb md:px-0 w-11/12 md:w-full flex flex-col items-center justify-center bg-white h-[60dvh] md:py-9 shadow md:shadow-none">
+      <div className="mx-auto my-5 md:px-0 w-11/12 md:w-full flex flex-col items-center justify-center bg-white h-[70dvh] md:h-[50dvh]  shadow md:shadow-none md:max-w-screen-2xl">
         <Headline className="">Further Reading</Headline>
-        <hr className="border-[#60A76F] w-1/4 border-2 my-3" />
-        <ul className="text-left py-8 flex flex-col gap-8">
-          <li>
+        <hr className="border-[#60A76F] w-1/4 border-2 my-3 mb-7" />
+        <ul className="text-left  flex flex-col gap-8 w-11/12 md:w-full">
+          <li className="px-3">
             <p className="font-bold">
               Pilot study investigating the effects of Ayurvedic Abhyanga
               massage on subjective stress experience
@@ -85,20 +87,20 @@ function About() {
               https://pubmed.ncbi.nlm.nih.gov/21568717/
             </a>
           </li>
-          <li>
+          <li className="px-3">
             <p className="font-bold">
               A prospective study on the effects of Ayurvedic massage in
               post-stroke patients
             </p>
             <p className="">National Library of Medicine</p>
             <a
-              className="text-blue-600 underline text-sm md:text-base "
+              className="text-blue-600 underline text-sm md:text-base text-wrap"
               href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6598790/"
             >
-              https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6598790/
+              https://www.ncbi.nlm.nih.gov/pmc/ articles/PMC6598790/
             </a>
           </li>
-          <li>
+          <li className="px-3">
             <p className="font-bold">
               Pilot study investigating the effects of Ayurvedic Abhyanga
               massage on subjective stress experience
