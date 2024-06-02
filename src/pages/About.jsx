@@ -4,6 +4,7 @@ import Hero from "../ui/Hero";
 import Icon from "../ui/Icon";
 import LargeCard from "../ui/LargeCard";
 import Panel from "../ui/Panel";
+import Table from "../ui/Table";
 
 function About() {
   return (
@@ -42,6 +43,7 @@ function About() {
           inventore, eaque ipsa incidunt ipsam officiis tempore sunt
           necessitatibus autem laboriosam aspernatur Dicta, distinctio.
         </p>
+        <Table />
       </div>
       <div className="md:bg-gradient-to-r from-[#938ccf] to-[#b0a4e3] md:bg-[#938ccf] my-9">
         <LargeCard
