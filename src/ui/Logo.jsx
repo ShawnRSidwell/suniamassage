@@ -11,7 +11,7 @@ function Logo({ size, className, includeIcon = true }) {
       textSize = "w-32 h-12 py-2";
       break;
     case "large":
-      iconSize = "w-100 h-10";
+      iconSize = "w-[150px] h-[50px]";
       textSize = "w-28 h-12 py-2";
       break;
     default:
