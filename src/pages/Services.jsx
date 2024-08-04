@@ -7,14 +7,14 @@ import PricingCard from "../ui/PricingCard";
 function Services() {
   return (
     <section id="services">
-      <h1 className=" text-[3em] md:text-[5em] font-thin tracking-tight text-center uppercase w-full font-serif -ml-3">
+      <h1 className=" text-[3em] md:text-[5em] font-thin tracking-tight text-center uppercase w-full font-serif -ml-3 ">
         <span className="font-normal tracking-[-15px] mx-5">---------</span>
         Remedies
         <span className="font-normal tracking-[-15px] mx-5">---------</span>
       </h1>
 
       <Box headline="Ayurvedic Massage" className="">
-        <hr className="border-[#60A76F] border-2 w-1/4 my-1 mb-3" />
+        <hr className="border-cGreen-400 border-2 w-1/4 my-1 mb-3" />
         <p className="text-gray-700">
           This is a full body treatment including scalp and belly. It is not
           going to treat specific areas of tension in the body, but is rather a
@@ -63,7 +63,7 @@ function Services() {
           <PricingCard />
         </div>
       </div>
-      <hr className="border-[#60A76F] w-5/6 my-5 mx-auto " />
+      <hr className="border-cGreen-500 w-5/6 my-5 mx-auto " />
     </section>
   );
 }

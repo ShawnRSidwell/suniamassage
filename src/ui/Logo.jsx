@@ -1,22 +1,18 @@
-function Logo({ size, className, includeIcon = true }) {
+function Logo({ size, className }) {
   let iconSize;
-  let textSize;
   switch (size) {
     case "small":
       iconSize = "w-10 h-10";
-      textSize = "w-28 h-12 py-2";
       break;
     case "med":
-      iconSize = "w-10 h-8";
-      textSize = "w-32 h-12 py-2";
+      iconSize = "w-[150px] h-[50px]";
       break;
     case "large":
-      iconSize = "w-[150px] h-[50px]";
-      textSize = "w-28 h-12 py-2";
+      iconSize = "w-[250px] h-[100px]";
       break;
     default:
       iconSize = "w-10 h-10";
-      textSize = "w-28 h-12 py-2";
+
       break;
   }
   return (

@@ -7,7 +7,7 @@ function Footer() {
       <div className="mx-auto max-w-screen-xl">
         <div className="flex justify-center gap-11 md:gap-0 md:justify-between">
           <div className="mb-6 md:mb-0">
-            <Logo className="mb-1" size="med" includeIcon={false} />
+            <Logo className="mb-1" size="large" includeIcon={false} />
             <div className="ml-1 text-gray-500">
               <p>2 Canterbury St.</p>
               <p> Portland, OR 97224</p>
