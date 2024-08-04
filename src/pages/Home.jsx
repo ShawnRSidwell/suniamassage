@@ -42,7 +42,7 @@ function Home() {
         >
           <p>For Consultations, Body Therapies and Energetic Coaching</p>
         </Panel>
-        <hr className="border-[#60A76F] w-5/6 md:hidden" />
+        <hr className="border-cGreen-400 w-5/6 md:hidden" />
       </div>
     </section>
   );
