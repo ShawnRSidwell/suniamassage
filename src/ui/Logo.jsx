@@ -11,7 +11,7 @@ function Logo({ size, className, includeIcon = true }) {
       textSize = "w-32 h-12 py-2";
       break;
     case "large":
-      iconSize = "w-10 h-10";
+      iconSize = "w-100 h-10";
       textSize = "w-28 h-12 py-2";
       break;
     default:
@@ -21,10 +21,7 @@ function Logo({ size, className, includeIcon = true }) {
   }
   return (
     <div className={`flex items-center gap-1 ${className}`}>
-      {includeIcon && (
-        <img className={iconSize} src="/sunia-massage-icon.JPG" alt="icon" />
-      )}
-      <img className={textSize} src="/sunia-massage-title.JPG" alt="title" />
+      <img className={iconSize} src="/sunia-massage-logo-new.png" alt="title" />
     </div>
   );
 }
