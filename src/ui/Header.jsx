@@ -78,7 +78,7 @@ function Header() {
           )}
         </header>
       ) : (
-        <header className="py-2 px-7 flex justify-between bg-white text-[#534b89]">
+        <header className="py-2 px-7 flex justify-between bg-white text-cBlue-400">
           <nav className="flex items-center justify-start">
             <ul className="flex gap-5">
               <li>
@@ -115,13 +115,10 @@ function Header() {
               </li>
             </ul>
           </nav>
-          <div className="flex mx-3 items-center justify-center lg:mr-36">
-            <img className="w-[100px] h-[80px]" src="/sunia-massage-icon.JPG" />
-            <img
-              className="w-[200px] h-[60px]"
-              src="/sunia-massage-title.JPG"
-            />
-          </div>
+          <img
+            className="h-[100px] w-[300px]"
+            src="/sunia-massage-logo-new.png"
+          />
           <div className="flex items-center">
             <Button className={"text-lg"}> Book Appointment</Button>
           </div>
