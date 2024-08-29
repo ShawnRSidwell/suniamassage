@@ -9,12 +9,13 @@ import Headline from "./Headline";
 
 function Carousel() {
   return (
-    <section className="py-24">
+    <section className="py-10 md:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <Headline>What our happy users say!</Headline>
         </div>
         <Swiper
+          className="py-5 md:py-0"
           modules={[Pagination, Autoplay]}
           slidesPerView={1}
           spaceBetween={32}
