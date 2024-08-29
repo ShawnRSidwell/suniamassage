@@ -1,11 +1,11 @@
 function Review() {
   return (
     <div className="group bg-white  rounded-xl p-6 transition-all duration-500 w-full mx-auto ">
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-white ">
         <div className="max-w-screen-xl px-4 mx-auto text-center lg:py-8 lg:px-6">
           <figure className="max-w-screen-md mx-auto">
             <svg
-              className="h-4 mx-auto mb-3 text-gray-400 dark:text-gray-600"
+              className="h-4 mx-auto mb-3 text-gray-400 "
               viewBox="0 0 24 27"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -16,7 +16,7 @@ function Review() {
               />
             </svg>
             <blockquote>
-              <p className="text-base font-medium text-gray-500 dark:text-white">
+              <p className="text-base font-medium text-gray-500 ">
                 I was welcomed into Zen as I arrived at Megan’s treatment space.
                 Peaceful music, light scents and mystical art set the tone for a
                 transformative two hour massage. More than a massage, it was a
@@ -34,12 +34,12 @@ function Review() {
                 src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
                 alt="profile picture"
               />
-              <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                <div className="pr-3 font-medium text-gray-900 dark:text-white">
+              <div className="flex items-center divide-x-2 divide-gray-500 ">
+                <div className="pr-3 font-medium text-gray-900 ">
                   Deanne Bankhead
                 </div>
-                {/* <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
-                  CEO at Google
+                {/* <div className="pl-3 text-sm font-light text-gray-500 ">
+                  Person
                 </div> */}
               </div>
             </figcaption>
