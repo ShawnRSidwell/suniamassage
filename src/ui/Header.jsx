@@ -51,10 +51,10 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="/services"
+                    to="/offerings"
                     className=" hover:text-gray-300 font-semibold"
                   >
-                    Services
+                    Offerings
                   </Link>
                 </li>
                 <li>
@@ -99,10 +99,10 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="/services"
+                  to="/offerings"
                   className=" hover:text-gray-300 font-semibold text-lg"
                 >
-                  Services
+                  Offerings
                 </Link>
               </li>
               <li>

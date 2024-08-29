@@ -4,9 +4,9 @@ import Headline from "../ui/Headline";
 import Panel from "../ui/Panel";
 import PricingCard from "../ui/PricingCard";
 
-function Services() {
+function Offerings() {
   return (
-    <section id="services">
+    <section id="Offerings">
       <h1 className=" text-[3em] md:text-[5em] font-thin tracking-tight text-center uppercase w-full font-serif -ml-3 ">
         <span className="font-normal tracking-[-15px] mx-5">---------</span>
         Offerings
@@ -68,4 +68,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default Offerings;
