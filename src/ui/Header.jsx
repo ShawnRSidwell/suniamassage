@@ -51,14 +51,6 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="/about"
-                    className=" hover:text-gray-300 font-semibold"
-                  >
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link
                     to="/services"
                     className=" hover:text-gray-300 font-semibold"
                   >
@@ -67,10 +59,26 @@ function Header() {
                 </li>
                 <li>
                   <Link
+                    to="/tesimonials"
+                    className=" hover:text-gray-300 font-semibold"
+                  >
+                    Testimonials
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/about"
+                    className=" hover:text-gray-300 font-semibold"
+                  >
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link
                     to="/contact"
                     className=" hover:text-gray-300 font-semibold"
                   >
-                    Contact
+                    Book A Massage
                   </Link>
                 </li>
               </ul>
@@ -91,14 +99,6 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="/about"
-                  className=" hover:text-gray-300 font-semibold text-lg"
-                >
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link
                   to="/services"
                   className=" hover:text-gray-300 font-semibold text-lg"
                 >
@@ -107,10 +107,18 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="/contact"
+                  to="/Testimonials"
                   className=" hover:text-gray-300 font-semibold text-lg"
                 >
-                  Contact
+                  Testimonials
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/about"
+                  className=" hover:text-gray-300 font-semibold text-lg"
+                >
+                  About
                 </Link>
               </li>
             </ul>
@@ -120,7 +128,9 @@ function Header() {
             src="/sunia-massage-logo-new.png"
           />
           <div className="flex items-center">
-            <Button className={"text-lg"}> Book Appointment</Button>
+            <Button className={"text-lg"}>
+              <Link to="/contact">Contact</Link>
+            </Button>
           </div>
         </header>
       )}

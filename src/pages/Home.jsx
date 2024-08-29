@@ -36,7 +36,7 @@ function Home() {
           className="hidden md:block absolute inset-0 w-full h-full object-cover z-0 opacity-50 "
         />
         <Panel
-          headline="Find The New You"
+          headline="Take the next step to self-care here"
           buttonText="Schedule Appointment"
           className="mb-5 relative z-10"
         >
