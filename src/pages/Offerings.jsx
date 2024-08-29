@@ -1,7 +1,6 @@
 import Box from "../ui/Box";
 import Button from "../ui/Button";
 import Headline from "../ui/Headline";
-import Panel from "../ui/Panel";
 import PricingCard from "../ui/PricingCard";
 
 function Offerings() {

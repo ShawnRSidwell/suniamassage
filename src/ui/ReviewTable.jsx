@@ -1,6 +1,3 @@
-import React from "react";
-import Headline from "./Headline";
-
 // Review component
 const ReviewCard = ({ review }) => (
   <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">

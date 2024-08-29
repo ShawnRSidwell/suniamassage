@@ -1,8 +1,6 @@
 import Card from "../ui/Card";
 import Carousel from "../ui/Carousel";
-import ElementCard from "../ui/ElementCard";
-import Elements from "../ui/Elements";
-import Headline from "../ui/Headline";
+
 import Jumbotron from "../ui/Jumbotron";
 import Panel from "../ui/Panel";
 
