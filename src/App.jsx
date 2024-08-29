@@ -5,7 +5,7 @@ import About from "./pages/About";
 import AppLayout from "./ui/AppLayout";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
-import Testimonials from "./pages/Testimonials";
+import Reviews from "./pages/Reviews";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           <Route index path="home" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="services" element={<Services />} />
-          <Route path="testimonials" element={<Testimonials />} />
+          <Route path="reviews" element={<Reviews />} />
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>

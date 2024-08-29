@@ -59,10 +59,10 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="/tesimonials"
+                    to="/reviews"
                     className=" hover:text-gray-300 font-semibold"
                   >
-                    Testimonials
+                    Reviews
                   </Link>
                 </li>
                 <li>
@@ -107,10 +107,10 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="/Testimonials"
+                  to="/reviews"
                   className=" hover:text-gray-300 font-semibold text-lg"
                 >
-                  Testimonials
+                  Reviews
                 </Link>
               </li>
               <li>
