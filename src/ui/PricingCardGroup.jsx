@@ -1,5 +1,6 @@
 import Headline from "./Headline";
 import PricingCard from "./PricingCard";
+import pricing from "../data/Pricing";
 
 function PricingCardGroup() {
   return (
@@ -12,9 +13,16 @@ function PricingCardGroup() {
         soluta sunt voluptate at.
       </p>
       <div className="flex flex-col gap-3 md:gap-0 md:flex-row justify-center items-center">
-        <PricingCard />
-        <PricingCard />
-        <PricingCard />
+        {pricing.map((pricing) => (
+          <PricingCard
+            key={pricing.price}
+            title={pricing.title}
+            price={pricing.price}
+            time={pricing.time}
+            includes={pricing.includes}
+            excludes={pricing.excludes}
+          />
+        ))}
       </div>
     </div>
   );
