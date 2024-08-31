@@ -22,7 +22,7 @@ function PricingCard({ title, price, time, includes, excludes }) {
           </PricingListItem>
         ))}
       </ul>
-      <Button>Schedule Now</Button>
+      <Button>Schedule Here</Button>
     </div>
   );
 }

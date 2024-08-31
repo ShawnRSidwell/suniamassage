@@ -17,7 +17,7 @@ function PricingListItem({ included = true, children }) {
           </span>
         </li>
       ) : (
-        <li className="hidden md:flex line-through decoration-gray-500">
+        <li className="flex line-through decoration-gray-500">
           <svg
             className="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500"
             aria-hidden="true"

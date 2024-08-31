@@ -11,7 +11,6 @@ function Footer() {
             <div className="flex flex-col gap-1 ml-1 text-gray-500">
               <p> Tigard, Oregon 97224</p>
               <p className="flex">
-                {" "}
                 <img
                   className="h-5 mt-[2px]"
                   src="/phone-icon.png"
@@ -46,7 +45,6 @@ function Footer() {
             </a>
             . All Rights Reserved.
           </span>
-          <SocialIcons className={"hidden md:block"} />
         </div>
       </div>
     </footer>

@@ -5,14 +5,17 @@ import pricing from "../data/Pricing";
 function PricingCardGroup() {
   return (
     <div className="p-5 md:mb-5 max-w-screen-lg md:mx-auto border-2 mx-3 md:border-0">
-      <Headline className="text-center">Standard Massage Pricing</Headline>
+      <Headline className="text-center">
+        Explore Our Additional Offerings
+      </Headline>
       <p className="text-center md:my-5 text-gray-500 my-3">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
-        repudiandae doloremque reprehenderit a nostrum necessitatibus sapiente
-        voluptatem quibusdam commodi sed neque magnam possimus quas iste quidem,
-        soluta sunt voluptate at.
+        Our Standard Massage options offer a range of relaxation and therapeutic
+        benefits tailored to your needs. Each session is designed to provide
+        deep relaxation and relieve tension, with varying durations to suit your
+        schedule. Choose from our 60-minute, 90-minute, or 120-minute sessions
+        to experience a blend of soothing techniques and targeted relief.
       </p>
-      <div className="flex flex-col gap-3 md:gap-0 md:flex-row justify-center items-center">
+      <div className="flex flex-col gap-3 md:gap-8 md:flex-row justify-center items-center">
         {pricing.map((pricing) => (
           <PricingCard
             key={pricing.price}
