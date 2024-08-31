@@ -10,12 +10,10 @@ function CallToActionSection() {
         className="hidden md:block absolute inset-0 w-full h-full object-cover z-0 opacity-50 "
       />
       <Panel
-        headline="Take the next step to self-care here"
+        headline="Take Your next step toward Wellness"
         buttonText="Schedule Appointment"
         className="mb-5 relative z-10"
-      >
-        <p>For Consultations, Body Therapies and Energetic Coaching</p>
-      </Panel>
+      ></Panel>
       <hr className="border-cGreen-400 w-5/6 md:hidden" />
     </div>
   );
