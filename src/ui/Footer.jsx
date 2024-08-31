@@ -9,8 +9,7 @@ function Footer() {
           <div className="mb-6 md:mb-0">
             <Logo className="mb-1" size="large" includeIcon={false} />
             <div className="ml-1 text-gray-500">
-              <p>2 Canterbury St.</p>
-              <p> Portland, OR 97224</p>
+              <p> Tigard, Oregon 97224</p>
               <p className="flex ">
                 {" "}
                 <img
@@ -18,7 +17,7 @@ function Footer() {
                   src="/phone-icon.png"
                   alt="phone icon"
                 />
-                (602) 112 - 1152
+                (503)502-3943
               </p>
             </div>
           </div>
@@ -28,6 +27,7 @@ function Footer() {
               Hours
             </h2>
             <ul className="text-gray-500 dark:text-gray-400">
+              {/* TODO: get specific hours */}
               <li>W 8:30am-11:30am</li>
               <li>Th and F 8:30am-1pm</li>
               <li>Evenings & Weekends</li>

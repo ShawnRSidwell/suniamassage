@@ -5,16 +5,17 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { Autoplay, Pagination } from "swiper/modules";
 import Headline from "./Headline";
+import testimonialData from "../data/testimonialData";
 
 function Carousel() {
   return (
     <section className="py-10 md:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <Headline>What our happy users say!</Headline>
+          <Headline>Listen to our happy clients!</Headline>
         </div>
         <Swiper
-          className="py-5 md:py-0"
+          className=""
           modules={[Pagination, Autoplay]}
           slidesPerView={1}
           spaceBetween={32}
@@ -35,24 +36,15 @@ function Carousel() {
           //     1024: { slidesPerView: 3, spaceBetween: 32 },
           //   }}
         >
-          <SwiperSlide>
-            <Review />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Review />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Review />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Review />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Review />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Review />
-          </SwiperSlide>
+          {testimonialData.map((review, i) => (
+            <SwiperSlide key={i}>
+              <Review
+                key={review.name}
+                name={review.name}
+                testimonial={review.testimonial}
+              />
+            </SwiperSlide>
+          ))}
         </Swiper>
         <div className="swiper-pagination mt-8"></div>
       </div>

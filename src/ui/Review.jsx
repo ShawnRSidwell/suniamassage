@@ -1,6 +1,6 @@
-function Review() {
+function Review({ name, testimonial }) {
   return (
-    <div className="group bg-white  rounded-xl p-6 transition-all duration-500 w-full mx-auto ">
+    <div className="group bg-white  rounded-xl transition-all duration-500 w-full mx-auto ">
       <section className="bg-white ">
         <div className="max-w-screen-xl px-4 mx-auto text-center lg:py-8 lg:px-6">
           <figure className="max-w-screen-md mx-auto">
@@ -17,29 +17,19 @@ function Review() {
             </svg>
             <blockquote>
               <p className="text-base font-medium text-gray-500 ">
-                I was welcomed into Zen as I arrived at Megan’s treatment space.
-                Peaceful music, light scents and mystical art set the tone for a
-                transformative two hour massage. More than a massage, it was a
-                spiritual experience and felt like my soul was healing along
-                with my body. The luxurious treatment gently but firmly
-                addressed tension in every part of my body. She used quality
-                oils and warm towels and exfoliated and hydrated my skin while
-                relaxing my muscles. I get massages regularly, and this was by
-                far one of my favorite treatments. Thank you Megan! Ill be back!
+                {testimonial}
               </p>
             </blockquote>
             <figcaption className="flex items-center justify-center mt-6 space-x-3">
-              <img
+              {/* <img
                 className="w-6 h-6 rounded-full"
                 src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
                 alt="profile picture"
-              />
+              /> */}
               <div className="flex items-center divide-x-2 divide-gray-500 ">
-                <div className="pr-3 font-medium text-gray-900 ">
-                  Deanne Bankhead
-                </div>
+                <div className="pr-3 font-medium text-gray-900 ">{name}</div>
                 {/* <div className="pl-3 text-sm font-light text-gray-500 ">
-                  Person
+                  Person's title or description
                 </div> */}
               </div>
             </figcaption>

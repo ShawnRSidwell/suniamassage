@@ -20,7 +20,7 @@ function Jumbotron() {
               href="#"
               className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-cPurple-400"
             >
-              Book a Massage
+              Schedule Your Next Treatment
             </Button>
           </div>
         </div>
