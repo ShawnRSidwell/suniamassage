@@ -129,7 +129,7 @@ function Header() {
           />
           <div className="flex items-center">
             <Button className={"text-lg"}>
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact">Boow Now</Link>
             </Button>
           </div>
         </header>

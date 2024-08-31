@@ -14,14 +14,14 @@ function Contact() {
           id="contact"
           className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md bg-white rounded-md md:border-[1px]  shadow-xl"
         >
-          <Headline className="text-center my-5">Contact Me</Headline>
+          <Headline className="text-center my-5">
+            Schedule a Massage with Me!
+          </Headline>
 
           <p className="mb-8 lg:mb-16 font-light text-center text-gray-500  sm:text-xl md:size-3/4 md:mx-auto">
-            Feel free to reach out for any inquiries or potential opportunities!
-            I&#39;m always open to connecting and discussing further. Whether
-            you have questions, ideas to share, or opportunities to explore,
-            I&#39;d love to hear from you. Let&#39;s connect and see how we can
-            collaborate!
+            An Ayurveda massage can offer deep relaxation and rejuvenation,
+            which can help to relieve stress and anxiety. Schedule a massage now
+            and start living healthier and happier.
           </p>
           <div>
             <Email />

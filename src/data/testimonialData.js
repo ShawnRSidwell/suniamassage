@@ -1,0 +1,6 @@
+const testimonialData = [
+  {
+    name: "",
+    testimonial: "",
+  },
+];

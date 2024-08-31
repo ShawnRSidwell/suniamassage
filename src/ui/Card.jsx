@@ -1,6 +1,13 @@
 import Button from "./Button";
 
-function Card({ image, title, reverse = false, children }) {
+function Card({
+  image,
+  title,
+  description,
+  action,
+  reverse = false,
+  children,
+}) {
   return (
     <a
       href="#"
@@ -26,9 +33,9 @@ function Card({ image, title, reverse = false, children }) {
           {title}
         </h5>
         <p className="mb-3 text-sm md:text-base text-gray-500 tracking-tight md:tracking-normal">
-          {children}
+          {description}
         </p>
-        <Button className="bg-[#756DAF]">Click Me</Button>
+        <Button className="bg-[#756DAF]">{action}</Button>
       </div>
     </a>
   );

@@ -10,6 +10,7 @@ function CardGroup() {
           title={card.title}
           image={card.image}
           description={card.description}
+          action={card.action}
           reverse={card?.reverse | false}
         />
       ))}
