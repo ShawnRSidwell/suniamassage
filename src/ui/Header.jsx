@@ -51,6 +51,14 @@ function Header() {
                 </li>
                 <li>
                   <Link
+                    to="/about"
+                    className=" hover:text-gray-300 font-semibold"
+                  >
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link
                     to="/offerings"
                     className=" hover:text-gray-300 font-semibold"
                   >
@@ -63,14 +71,6 @@ function Header() {
                     className=" hover:text-gray-300 font-semibold"
                   >
                     Reviews
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/about"
-                    className=" hover:text-gray-300 font-semibold"
-                  >
-                    About
                   </Link>
                 </li>
                 <li>
@@ -99,6 +99,14 @@ function Header() {
               </li>
               <li>
                 <Link
+                  to="/about"
+                  className=" hover:text-gray-300 font-semibold text-lg"
+                >
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link
                   to="/offerings"
                   className=" hover:text-gray-300 font-semibold text-lg"
                 >
@@ -111,14 +119,6 @@ function Header() {
                   className=" hover:text-gray-300 font-semibold text-lg"
                 >
                   Reviews
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/about"
-                  className=" hover:text-gray-300 font-semibold text-lg"
-                >
-                  About
                 </Link>
               </li>
             </ul>
