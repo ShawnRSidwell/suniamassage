@@ -15,7 +15,7 @@ const cardData = [
     action: "View Offerings",
   },
   {
-    title: "Learn Our Methods",
+    title: "Learn the Benefits",
     image: "/massage-ingredients.jpg",
     description:
       "Uncover the ancient techniques and natural ingredients we use to promote healing and balance. Learn more about our methods and how they can benefit your well-being.",

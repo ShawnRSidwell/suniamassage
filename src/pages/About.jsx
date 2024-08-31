@@ -15,6 +15,16 @@ function About() {
         image="/LinkedInPhoto Final.jpg"
       >
         <p className="leading-5 md:leading-8">
+          I graduated from East West College of the Healing Arts in 2023 with
+          800 hours of in depth learning of Anatomy, Physiology and Pathology,
+          Kinesiology, Western and Eastern massage modalities. I learned
+          Ayurvedic bodywork from Debbie Anne Taylor. I enjoy offering my
+          clients a reprieve from daily stressors and being a key component of
+          their wellness management routine. I especially love offering the
+          Ayurvedic body treatment because of its unique ability to transform
+          and heal the body mind and spirit.
+        </p>
+        <p className="leading-5 md:leading-8">
           The first time I experienced the healing quality of the herb-infused
           oil penetrating my skin, I felt instantly grounded in a way I had
           “forgotten” was possible. It was a soul recognition and realization of
@@ -28,7 +38,7 @@ function About() {
           incredible ways Abhyanga has illuminated and transformed my being.
         </p>
       </Hero>
-      <div className="md:py-9 max-w-screen-xl mx-auto">
+      {/* <div className="md:py-9 max-w-screen-xl mx-auto">
         <Headline className="mx-3 text-center">
           What Is Ayurveda Massage?
         </Headline>
@@ -61,8 +71,8 @@ function About() {
           maintaining health and wellness.
         </p>
         <Table />
-      </div>
-      <div className="md:bg-gradient-to-r from-[#938ccf] to-[#b0a4e3] md:bg-[#938ccf] my-9">
+      </div> */}
+      <div className="">
         <LargeCard
           headline="Benefits from Ayurveda Massage"
           image="/massage-jumbo.jpg"
