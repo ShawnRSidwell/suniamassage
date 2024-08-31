@@ -16,7 +16,7 @@ function CallToActionSection() {
       >
         <p>For Consultations, Body Therapies and Energetic Coaching</p>
       </Panel>
-      <hr className="border-cGreen-400 w-5/6 md:hidden" />;
+      <hr className="border-cGreen-400 w-5/6 md:hidden" />
     </div>
   );
 }

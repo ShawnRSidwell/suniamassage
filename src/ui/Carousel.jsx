@@ -46,7 +46,6 @@ function Carousel() {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="swiper-pagination mt-8"></div>
       </div>
     </section>
   );

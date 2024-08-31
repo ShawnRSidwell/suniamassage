@@ -1,36 +1,6 @@
+import aboutData from "../data/AboutData";
+
 function Table() {
-  const data = [
-    {
-      id: 1,
-      element: "Air",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit deserunt dignissimos explicabo ratione ",
-    },
-    {
-      id: 2,
-      element: "Fire",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit deserunt dignissimos explicabo ratione Fugit deserunt dignissimos explicabo ratione ",
-    },
-    {
-      id: 3,
-      element: "Water",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit deserunt dignissimos explicabo ratione Fugit deserunt dignissimos explicabo ratione Fugit deserunt dignissimos explicabo ratione ",
-    },
-    {
-      id: 4,
-      element: "Earth",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit deserunt dignissimos explicabo ratione Fugit deserunt dignissimos explicabo ratione ",
-    },
-    {
-      id: 5,
-      element: "Ether",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit deserunt dignissimos explicabo ratione, Lorem ipsum dolor sit amet consectetur adipisicing elit ",
-    },
-  ];
   return (
     <div className="container mx-auto px-4 sm:px-8">
       <div className="py-8">
@@ -54,7 +24,7 @@ function Table() {
                 </tr>
               </thead>
               <tbody>
-                {data.map((person) => (
+                {aboutData.map((person) => (
                   <tr key={person.id}>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <p className="text-gray-900 whitespace-no-wrap font-semibold tracking-wider">
