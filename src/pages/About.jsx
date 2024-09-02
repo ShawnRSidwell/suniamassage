@@ -1,11 +1,10 @@
+import FurtherReadingList from "../Features/about/FurtherReadingList";
 import CallToActionSection from "../ui/CallToActionSection";
-import FurtherReadingList from "../ui/FurtherReadingList";
-import Headline from "../ui/Headline";
+
 import Hero from "../ui/Hero";
 import Icon from "../ui/Icon";
-import Jumbotron from "../ui/Jumbotron";
+
 import LargeCard from "../ui/LargeCard";
-import Table from "../ui/Table";
 
 function About() {
   return (
@@ -38,40 +37,6 @@ function About() {
           incredible ways Abhyanga has illuminated and transformed my being.
         </p>
       </Hero>
-      {/* <div className="md:py-9 max-w-screen-xl mx-auto">
-        <Headline className="mx-3 text-center">
-          What Is Ayurveda Massage?
-        </Headline>
-        <hr className="border-[#60A76F] w-1/3 mx-auto border-2 my-3" />
-        <p className="md:max-w-screen-2xl mx-auto px-4 text-gray-600">
-          Ayurveda Massage is a traditional therapy rooted in the ancient
-          Ayurvedic system of healing, which originated in India over 5,000
-          years ago. This holistic practice aims to restore balance and harmony
-          within the body, mind, and spirit. By using a combination of rhythmic
-          strokes, herbal oils, and therapeutic techniques, Ayurveda Massage
-          helps to detoxify the body, improve circulation, and enhance overall
-          well-being.
-          <img
-            src="doshas.PNG"
-            alt="Doshas"
-            className="md:w-[500px] md:h-[400px] mx-auto my-4"
-          />
-          During an Ayurveda Massage, specific oils are chosen based on an
-          individual&apos;s dosha—one of the three vital energies (Vata, Pitta,
-          Kapha) that govern our physical and mental processes. Each dosha
-          represents a combination of the five elements (earth, water, fire,
-          air, and space), and the massage techniques are tailored to balance
-          these elements in the body.
-          <br />
-          <br />
-          The therapeutic benefits of Ayurveda Massage include reduced stress,
-          improved digestion, enhanced immunity, and better sleep quality. This
-          ancient practice not only promotes relaxation but also supports the
-          body&apos;s natural healing processes, making it a valuable tool for
-          maintaining health and wellness.
-        </p>
-        <Table />
-      </div> */}
       <div className="">
         <LargeCard
           headline="My Approach to Ayurvedic Body Treatment"

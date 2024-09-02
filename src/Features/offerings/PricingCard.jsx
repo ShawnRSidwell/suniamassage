@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "../../ui/Button";
 import PricingListItem from "./PricingListItem";
 
 function PricingCard({ title, price, time, includes, excludes }) {

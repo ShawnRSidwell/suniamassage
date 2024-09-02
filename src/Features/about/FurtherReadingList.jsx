@@ -1,6 +1,6 @@
-import scienceArticles from "../data/ScienceArticles";
+import scienceArticles from "../../data/ScienceArticles";
 import FurtherReadingItem from "./FurtherReadingItem";
-import Headline from "./Headline";
+import Headline from "../../ui/Headline";
 
 function FurtherReadingList() {
   return (

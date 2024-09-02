@@ -1,6 +1,6 @@
-import Headline from "./Headline";
+import Headline from "../../ui/Headline";
 import PricingCard from "./PricingCard";
-import pricing from "../data/Pricing";
+import pricing from "../../data/Pricing";
 
 function PricingCardGroup() {
   return (

@@ -1,7 +1,7 @@
+import PricingCardGroup from "../Features/offerings/PricingCardGroup";
+import PricingHeadline from "../Features/offerings/PricingHeadline";
+import PricingHero from "../Features/offerings/PricingHero";
 import CallToActionSection from "../ui/CallToActionSection";
-import PricingCardGroup from "../ui/PricingCardGroup";
-import PricingHeadline from "../ui/PricingHeadline";
-import PricingHero from "../ui/PricingHero";
 
 function Offerings() {
   return (

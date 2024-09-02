@@ -1,13 +1,12 @@
+import HomeJumbotron from "../Features/home/HomeJumbotron";
 import CallToActionSection from "../ui/CallToActionSection";
 import CardGroup from "../ui/CardGroup";
 import Carousel from "../ui/Carousel";
 
-import Jumbotron from "../ui/Jumbotron";
-
 function Home() {
   return (
     <section id="home">
-      <Jumbotron />
+      <HomeJumbotron />
       <CardGroup />
       <Carousel />
       <CallToActionSection />

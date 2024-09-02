@@ -1,5 +1,5 @@
-import Box from "./Box";
-import Button from "./Button";
+import Box from "../../ui/Box";
+import Button from "../../ui/Button";
 
 function PricingHero() {
   return (
