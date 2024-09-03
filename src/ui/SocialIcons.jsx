@@ -1,6 +1,6 @@
 function SocialIcons({ className }) {
   return (
-    <div className={`md:flex space-x-3 md:space-x-6  sm:mt-0 ${className}`}>
+    <div className={`flex space-x-3 gap-4  sm:mt-0 ${className}`}>
       <a href="#" className="text-gray-500 hover:text-gray-900 ">
         <svg
           className="w-5 h-5"
