@@ -8,12 +8,13 @@ function Jumbotron({ image, color, children }) {
   }
   switch (color) {
     case "beige":
-      boxColor = "bg-cBeige-300 w-4/5  rounded-3xl p-6 md:p-16 shadow-lg";
+      boxColor =
+        "bg-cBeige-200 mx-3 md:w-4/5  rounded-3xl p-6 md:p-16 shadow-lg md:mx-0";
   }
 
   return (
     <section className={backgroundImage}>
-      <div className="text-center w-full h-[65dvh] md:h-[75dvh] flex justify-center items-center">
+      <div className="text-center w-full py-12 md:h-[75dvh] flex justify-center items-center">
         <div className={boxColor}>
           <div className="">{children}</div>
         </div>

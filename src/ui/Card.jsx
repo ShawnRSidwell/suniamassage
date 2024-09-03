@@ -35,7 +35,7 @@ function Card({
         <p className="mb-3 text-sm md:text-base text-gray-500 tracking-tight md:tracking-normal">
           {description}
         </p>
-        <Button className="bg-[#756DAF]">{action}</Button>
+        <Button className="">{action}</Button>
       </div>
     </a>
   );
