@@ -1,23 +1,15 @@
-function Jumbotron({ image, color, children }) {
+function Jumbotron({ image, children }) {
   let backgroundImage = null;
-  let boxColor = null;
   switch (image) {
     case "hand":
       backgroundImage =
         "bg-cover bg-no-repeat bg-[url('/hand-massage.jpg')] bg-top flex flex-col";
   }
-  switch (color) {
-    case "beige":
-      boxColor =
-        "bg-cBeige-200 mx-3 md:w-4/5  rounded-3xl p-6 md:p-16 shadow-lg md:mx-0";
-  }
 
   return (
     <section className={backgroundImage}>
       <div className="text-center w-full py-12 md:h-[75dvh] flex justify-center items-center">
-        <div className={boxColor}>
-          <div className="">{children}</div>
-        </div>
+        {children}
       </div>
     </section>
   );
