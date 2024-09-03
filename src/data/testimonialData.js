@@ -1,5 +1,10 @@
 const testimonialData = [
   {
+    name: "Dejanae Bankhead",
+    testimonial:
+      "I was welcomed into Zen as I arrived at Megan’s treatment space.  Peaceful music, light scents and mystical art set the tone for a transformative two hour massage.  More than a massage, it was a spiritual experience and felt like my soul was healing along with my body.  The luxurious treatment gently but firmly addressed tension in every part of my body.  She used quality oils and warm towels and exfoliated and hydrated my skin while relaxing my muscles.  I get massages regularly, and this was by far one of my favorite treatments.  Thank you Megan!  Ill be back!",
+  },
+  {
     name: "Lisa DiTommaso",
     testimonial:
       "Megan’s massage technique is the most soothing, comforting, and relaxing ever!  I love that she uses special oils just for you based on your constitution. I felt amazing for days afterwards and have finally found the therapist I want to return to on a regular basis.",
@@ -28,11 +33,6 @@ const testimonialData = [
     name: "T. Ford",
     testimonial:
       "I left my massage with Megan feeling revitalized. My skin felt silky smooth and seemed to glow. The oil and exfoliation was an amazing combination. The information that Megan gave before the massage helped me to understand the process and left me excited. She clearly laid out the process and allowed ample time for questions. Her touch and check ins helped me to relax completely into the experience. The temperature of the room, oil and towels was just right, I felt comfortable throughout. Megan’s added thoughtfulness of stating the time when she finished the massage helped me to orient back into the present. The space and music seemed well thought out. Overall it was a very lovely massage!",
-  },
-  {
-    name: "Dejanae Bankhead",
-    testimonial:
-      "I was welcomed into Zen as I arrived at Megan’s treatment space.  Peaceful music, light scents and mystical art set the tone for a transformative two hour massage.  More than a massage, it was a spiritual experience and felt like my soul was healing along with my body.  The luxurious treatment gently but firmly addressed tension in every part of my body.  She used quality oils and warm towels and exfoliated and hydrated my skin while relaxing my muscles.  I get massages regularly, and this was by far one of my favorite treatments.  Thank you Megan!  Ill be back!",
   },
 ];
 

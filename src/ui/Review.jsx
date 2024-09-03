@@ -2,48 +2,44 @@ function Review({ name, testimonial }) {
   return (
     <div className="group bg-white  rounded-xl transition-all duration-500 w-full mx-auto ">
       <section className="bg-white ">
-        <div className="max-w-screen-xl px-4 mx-auto text-center lg:py-4 lg:px-6">
+        <div className="max-w-screen-xl px-4 py-4 mx-auto text-center  lg:px-6">
           <figure className="max-w-screen-md mx-auto">
-            <svg
-              className="h-4  text-gray-400 "
-              viewBox="0 0 24 27"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
-                fill="currentColor"
-              />
-            </svg>
-            <blockquote>
-              <p className="text-base font-medium text-gray-500 ">
-                {testimonial}
-              </p>
-            </blockquote>
-            <div className="flex flex-end">
-              <svg
-                className="h-4  text-gray-400 "
-                viewBox="0 0 24 27"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
-                  fill="currentColor"
-                />
-              </svg>
+            <div className="flex">
+              <div className="flex items-start">
+                <svg
+                  className="h-4 md:h-6 md:mr-5 mr-2  text-gray-400"
+                  viewBox="0 0 24 27"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+              <blockquote>
+                <p className="text-base  tracking-tightr text-gray-500 ">
+                  {testimonial}
+                </p>
+              </blockquote>
+              <div className="flex items-start">
+                <svg
+                  className="h-4 md:h-6 md:ml-5 ml-2  text-gray-400"
+                  viewBox="0 0 24 27"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
             </div>
             <figcaption className="flex items-center justify-center mt-6 space-x-3">
-              {/* <img
-                className="w-6 h-6 rounded-full"
-                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
-                alt="profile picture"
-              /> */}
-              <div className="flex items-center divide-x-2 divide-gray-500 ">
+              <div className="flex items-center  divide-gray-500 mb-5">
                 <div className="pr-3 font-medium text-gray-900 ">{name}</div>
-                {/* <div className="pl-3 text-sm font-light text-gray-500 ">
-                  Person's title or description
-                </div> */}
               </div>
             </figcaption>
           </figure>

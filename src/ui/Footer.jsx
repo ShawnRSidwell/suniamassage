@@ -18,7 +18,7 @@ function Footer() {
                 />
                 (503)502-3943
               </p>
-              <SocialIcons className={"hidden md:block"} />
+              <SocialIcons className={"md:flex hidden "} />
             </div>
           </div>
 

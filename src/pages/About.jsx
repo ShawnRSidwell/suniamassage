@@ -4,11 +4,6 @@ import BenefitsCard from "../Features/about/BenefitsCard";
 import FurtherReadingList from "../Features/about/FurtherReadingList";
 import CallToActionSection from "../ui/CallToActionSection";
 
-import Hero from "../ui/Hero";
-import Icon from "../ui/Icon";
-
-import LargeCard from "../ui/FeatureCard";
-
 function About() {
   return (
     <section id="about" className="flex flex-col gap-6">
