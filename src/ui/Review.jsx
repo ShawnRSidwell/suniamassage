@@ -19,7 +19,7 @@ function Review({ name, testimonial }) {
                 </svg>
               </div>
               <blockquote>
-                <p className="text-base  tracking-tightr text-gray-500 ">
+                <p className="text-sm tracking-tighter text-gray-500 md:text-base ">
                   {testimonial}
                 </p>
               </blockquote>
@@ -37,8 +37,8 @@ function Review({ name, testimonial }) {
                 </svg>
               </div>
             </div>
-            <figcaption className="flex items-center justify-center mt-6 space-x-3">
-              <div className="flex items-center  divide-gray-500 mb-5">
+            <figcaption className="flex items-center justify-center mt-2 md:mt-3 space-x-3">
+              <div className="flex items-center  divide-gray-500 mb-2 md:mb-5">
                 <div className="pr-3 font-medium text-gray-900 ">{name}</div>
               </div>
             </figcaption>

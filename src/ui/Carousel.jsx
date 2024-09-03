@@ -11,7 +11,7 @@ function Carousel() {
   return (
     <section className="md:flex md:items-center ">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="text-center md:py-12">
+        <div className="text-center py-6 md:py-12 ">
           <Headline className={"tracking-widest"}>
             Listen to our happy clients!
           </Headline>
