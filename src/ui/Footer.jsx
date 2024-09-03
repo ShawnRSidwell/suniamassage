@@ -16,7 +16,7 @@ function Footer() {
                   src="/phone-icon.png"
                   alt="phone icon"
                 />
-                (503)502-3943
+                (503) 502-3943
               </p>
               <SocialIcons className={"md:flex hidden "} />
             </div>

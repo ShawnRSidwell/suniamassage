@@ -2,7 +2,7 @@ import SocialIcons from "../../ui/SocialIcons";
 
 function AboutHero() {
   return (
-    <div className=" w-full bg-gradient-to-b from-cPurple-600 via-purple-400 via-65% to-white from-30% to-95% flex justify-center items-center py-6 md:py-12">
+    <div className=" w-full bg-gradient-to-b from-cPurple-600 via-purple-400 via-55% to-white from-20% to-95% flex justify-center items-center py-6 md:py-12">
       <div className="flex items-center bg-cBeige-200  rounded-xl px-4 md:px-20 shadow-lg">
         <div className="relative max-w-sm mx-auto md:max-w-6xl   min-w-0 break-words bg-white  mb-6 shadow-lg rounded-lg mt-28 md:mt-8 md:mb-12">
           <div className="px-6">
@@ -21,7 +21,7 @@ function AboutHero() {
               <div>
                 <img
                   src="/center-megan-profile-pic.jpg"
-                  className="shadow-xl rounded-full align-middle border-none w-[400px] h-[350px]  hidden md:block md:my-6"
+                  className="shadow-xl rounded-full align-middle  w-[400px] h-[350px]  hidden md:block md:my-6"
                 />
               </div>
               <div className="text-center md:mt-2 md:flex md:flex-col md:items-start md:justify-center  md:ml-12 md:mb-16">
