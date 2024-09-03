@@ -2,7 +2,7 @@ import SocialIcons from "../../ui/SocialIcons";
 
 function AboutHero() {
   return (
-    <div className=" w-full bg-gradient-to-b from-cPurple-600 via-purple-400 via-55% to-white from-20% to-95% flex justify-center items-center py-6 md:py-12">
+    <div className=" w-full bg-cPurple-600  flex justify-center items-center py-6 md:pt-12">
       <div className="flex items-center bg-cBeige-200  rounded-xl px-4 md:px-20 shadow-lg">
         <div className="relative max-w-sm mx-auto md:max-w-6xl   min-w-0 break-words bg-white  mb-6 shadow-lg rounded-lg mt-28 md:mt-8 md:mb-12">
           <div className="px-6">

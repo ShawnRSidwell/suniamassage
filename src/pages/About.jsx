@@ -6,7 +6,7 @@ import CallToActionSection from "../ui/CallToActionSection";
 
 function About() {
   return (
-    <section id="about" className="flex flex-col gap-6">
+    <section id="about" className="flex flex-col gap-6 md:gap-12">
       <AboutHero />
       <ApproachCard />
       <BenefitsCard />
