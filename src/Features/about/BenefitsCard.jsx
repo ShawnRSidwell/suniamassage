@@ -1,6 +1,10 @@
 import Icon from "../../ui/Icon";
 import LargeCard from "../../ui/FeatureCard";
 import FeatureCard from "../../ui/FeatureCard";
+import { FaHeadSideVirus } from "react-icons/fa";
+import { TbMoodSick } from "react-icons/tb";
+import { MdSick } from "react-icons/md";
+import { IoBody } from "react-icons/io5";
 
 function BenefitsCard() {
   return (
@@ -24,9 +28,15 @@ function BenefitsCard() {
         Relief from the following:
       </p>
       <div className="flex justify-around md:gap-3 md:mx-16 text-gray-800">
-        <Icon size="3em">Stress</Icon>
-        <Icon size="3em">Aches</Icon>
-        <Icon size="3em">Anxiety</Icon>
+        <Icon icon={FaHeadSideVirus} size="3em">
+          Stress
+        </Icon>
+        <Icon icon={TbMoodSick} size="3em">
+          Anxiety
+        </Icon>
+        <Icon icon={IoBody} size="3em">
+          Aches
+        </Icon>
       </div>
     </FeatureCard>
   );

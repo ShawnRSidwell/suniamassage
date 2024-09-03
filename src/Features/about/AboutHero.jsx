@@ -4,18 +4,18 @@ import SocialIcons from "../../ui/SocialIcons";
 function AboutHero() {
   return (
     <div className=" w-full bg-cGreen-400 flex items-center ">
-      <div className="relative max-w-sm mx-auto md:max-w-6xl  min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-xl mt-32 md:mt-56 md:mb-12">
+      <div className="relative max-w-sm mx-auto md:max-w-6xl  min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-xl mt-28 md:mt-56 md:mb-12">
         <div className="px-6">
           <div className="flex flex-wrap justify-center">
-            <div className="w-full flex justify-center">
+            <div className="w-full flex justify-center md:hidden">
               <div className="relative">
                 <img
-                  src="https://github.com/creativetimofficial/soft-ui-dashboard-tailwind/blob/main/build/assets/img/team-2.jpg?raw=true"
-                  className="shadow-xl rounded-full align-middle border-none absolute -m-[6.5em] -ml-[6.25rem] md:-m-[12em] md:-ml-[12.5rem] md:max-w-[400px] max-w-[200px]"
+                  src="/center-megan-profile-pic.jpg"
+                  className="shadow-xl rounded-full align-middle border-none absolute -m-[4.75em] -ml-[6.25rem]  max-w-[200px]"
                 />
               </div>
             </div>
-            <div className="w-full text-center mt-24 md:mt-56"></div>
+            <div className="w-full text-center mt-20 md:mt-56"></div>
           </div>
           <div className="text-center md:mt-2">
             <h3 className="text-4xl text-slate-700 font-bold leading-normal mb-1">

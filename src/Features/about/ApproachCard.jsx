@@ -1,11 +1,10 @@
 import FeatureCard from "../../ui/FeatureCard";
-import LargeCard from "../../ui/FeatureCard";
 
 function ApproachCard() {
   return (
     <FeatureCard
       headline="My Approach to Ayurvedic Body Treatment"
-      image="/massage-jumbo.jpg"
+      image="/chest-massage.png"
       alt="Large massage picture"
       reverse={true}
     >
