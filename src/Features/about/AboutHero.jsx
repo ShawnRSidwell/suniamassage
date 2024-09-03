@@ -3,8 +3,8 @@ import SocialIcons from "../../ui/SocialIcons";
 
 function AboutHero() {
   return (
-    <div className=" w-full bg-cGreen-400 flex items-center ">
-      <div className="relative max-w-sm mx-auto md:max-w-6xl  min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-xl mt-28 md:mt-56 md:mb-12">
+    <div className=" w-full bg-cPurple-800  flex items-center ">
+      <div className="relative max-w-sm mx-auto md:max-w-4xl  min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg mt-28 md:mt-8 md:mb-12">
         <div className="px-6">
           <div className="flex flex-wrap justify-center">
             <div className="w-full flex justify-center md:hidden">
@@ -15,18 +15,28 @@ function AboutHero() {
                 />
               </div>
             </div>
-            <div className="w-full text-center mt-20 md:mt-56"></div>
+            <div className="w-full text-center mt-20 md:mt-5"></div>
           </div>
-          <div className="text-center md:mt-2">
-            <h3 className="text-4xl text-slate-700 font-bold leading-normal mb-1">
-              Megan Patten
-            </h3>
-            <div className="text-xs mt-0 mb-2 text-slate-400 font-bold uppercase">
-              <i className="fas fa-map-marker-alt mr-2 text-slate-400 opacity-75"></i>
-              Portland, Oregon
+          <div className="md:flex md:mx-auto md:items-center md:justify-center">
+            <div>
+              <img
+                src="/center-megan-profile-pic.jpg"
+                className="shadow-xl rounded-full align-middle border-none w-[400px] h-[350px]  hidden md:block"
+              />
             </div>
-            <div className="flex justify-center lg:pt-4 md:pt-8 pb-0">
-              <SocialIcons />
+            <div className="text-center md:mt-2 md:flex md:flex-col md:items-start md:justify-center  md:ml-12">
+              <h3 className="text-4xl md:text-5xl text-slate-700 font-bold leading-normal tracking-wider">
+                Megan Patten
+              </h3>
+              <div className="font-bold uppercase text-xs opacity-75 text-cGreen-600 hover:text-slate-400 md:text-lg ">
+                PHD
+              </div>
+              <div className="text-xs mt-0 mb-2 text-cGreen-600 font-light tracking-wide uppercase md:text-lg">
+                Portland, Oregon
+              </div>
+              <div className="flex justify-center lg:pt-2 md:pt-8 pb-0">
+                <SocialIcons />
+              </div>
             </div>
           </div>
           <div className="mt-6 py-6 border-t border-slate-200 text-center">
@@ -58,12 +68,6 @@ function AboutHero() {
                   enough about the incredible ways Abhyanga has illuminated and
                   transformed my being.
                 </p>
-                <a
-                  href="javascript:;"
-                  className="font-normal text-slate-700 hover:text-slate-400"
-                >
-                  Follow Account
-                </a>
               </div>
             </div>
           </div>
