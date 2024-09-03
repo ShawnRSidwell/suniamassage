@@ -35,15 +35,15 @@ function Header() {
             <Logo size="med" />
             <button onClick={toggleMenu}>
               {isMenuOpen ? (
-                <AiFillCloseCircle color="grey" size="1.8em" />
+                <AiFillCloseCircle color="#7675AA" size="1.8em" />
               ) : (
-                <AiOutlineMenu color="grey" size="1.8em" />
+                <AiOutlineMenu color="#7675AA" size="1.8em" />
               )}
             </button>
           </div>
           {isMenuOpen && (
             <nav>
-              <ul className="flex flex-col items-center basis-full py-3 gap-3 ">
+              <ul className="flex flex-col items-center basis-full py-3 gap-3 text-cPurple-700">
                 <li>
                   <Link to="/" className=" hover:text-gray-300 font-semibold ">
                     Home
@@ -86,7 +86,7 @@ function Header() {
           )}
         </header>
       ) : (
-        <header className="py-2 px-7 flex justify-between bg-white text-cBlue-400">
+        <header className="py-2 px-7 flex justify-between bg-white text-cPurple-600">
           <nav className="flex items-center justify-start">
             <ul className="flex gap-5">
               <li>
