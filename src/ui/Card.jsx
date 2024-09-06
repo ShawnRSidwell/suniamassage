@@ -1,43 +1,39 @@
 import Button from "./Button";
 
-function Card({
-  image,
-  title,
-  description,
-  action,
-  reverse = false,
-  children,
-}) {
+function Card({ image, title, description, action, reverse = false }) {
   return (
-    <a
-      href="#"
-      className={` flex items-center bg-white md:border md:border-gray-200 rounded-lg md:shadow md:flex-row md:max-w-xl my-9 md:my-0  shadow  ${
-        reverse ? "flex-row-reverse md:flex-none mr-[.5rem]" : ""
+    <div
+      className={` items-center bg-white md:border md:border-gray-200 rounded-lg md:shadow md:flex-row md:max-w-xl md:my-0  shadow  ${
+        reverse ? "flex-row-reverse " : ""
       }`}
     >
-      <img
-        className={`w-1/2 h-72 rounded-lg  md:object-cover  md:rounded-t-lg md:h-96  md:w-48 md:rounded-none md:rounded-s-lg shadow-md ${
-          reverse
-            ? "rounded-r-none   z-0 object-cover transform scale-x-[-1]  md:scale-x-[1]"
-            : "rounded-r-none "
-        }`}
-        src={image}
-        alt={title}
-      />
-      <div
-        className={`px-3 w-1/2 mx-4 flex flex-col justify-between md:p-4 leading-normal ${
-          reverse ? "mx-0 z-1 pb-4" : ""
-        }`}
-      >
-        <h5 className="mb-2 mt-4 text-2xl font-extrabold tracking-wider  md:font-bold text-gray-700 ">
-          {title}
-        </h5>
-        <p className="mb-3 text-sm md:text-base text-gray-500 tracking-tight md:tracking-normal">
-          {description}
-        </p>
-        <Button className="">{action}</Button>
+      <div className="flex justify-around ">
+        <img
+          className={`w-1/2 h-[300px] rounded-lg  md:object-cover  md:rounded-t-lg md:h-96  md:rounded-none md:rounded-s-lg shadow-md ${
+            reverse
+              ? "rounded-l-none z-0 object-cover transform scale-x-[-1]"
+              : "rounded-r-none "
+          }`}
+          src={image}
+          alt={title}
+        />
+        <div
+          className={`mx-3 w-1/2 flex flex-col gap-3 items-start md:p-4 leading-normal ${
+            reverse ? "mx-0 z-1 " : ""
+          }`}
+        >
+          <div className="h-[70%] md:h-[80%]">
+            <h5 className=" text-2xl font-extrabold tracking-wider  md:font-bold text-gray-700 mb-2 mt-2 md:mt-4">
+              {title}
+            </h5>
+            <p className="mb-6 text-sm md:text-base text-gray-500 tracking-tight md:tracking-normal">
+              {description}
+            </p>
+          </div>
+          <Button className="">{action}</Button>
+        </div>
       </div>
-    </a>
+    </div>
   );
 }
 
