@@ -11,7 +11,7 @@ function Card({ image, title, description, action, reverse = false }) {
         <img
           className={`w-1/2 h-[300px] rounded-lg  md:object-cover  md:h-96  shadow-md ${
             reverse
-              ? "rounded-l-none z-0 object-cover transform scale-x-[-1] md:scale-x-[1] md:rounded-r-none"
+              ? "rounded-l-none z-0 object-cover transform scale-x-[-1] md:scale-x-[1] md:rounded-r-none md:rounded-l-lg"
               : "rounded-r-none "
           }`}
           src={image}
