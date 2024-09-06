@@ -9,16 +9,16 @@ function Card({ image, title, description, action, reverse = false }) {
     >
       <div className="flex justify-around ">
         <img
-          className={`w-1/2 h-[300px] rounded-lg  md:object-cover  md:h-96  shadow-md ${
+          className={`w-1/2 h-[300px] rounded-lg  md:object-cover  md:h-96  shadow-md  object-cover ${
             reverse
-              ? "rounded-l-none z-0 object-cover transform scale-x-[-1] md:scale-x-[1] md:rounded-r-none md:rounded-l-lg"
-              : "rounded-r-none "
+              ? "rounded-l-none z-0 transform scale-x-[-1] md:scale-x-[1] md:rounded-r-none md:rounded-l-lg"
+              : "rounded-r-none"
           }`}
           src={image}
           alt={title}
         />
         <div
-          className={`mx-3 w-1/2  flex flex-col gap-3 items-start md:p-4 leading-normal ${
+          className={`mx-3 w-1/2  flex flex-col gap-3 items-start md:p-4 leading-normal ml-4 ${
             reverse ? "mx-0 z-1 " : ""
           }`}
         >
