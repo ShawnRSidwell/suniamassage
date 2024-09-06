@@ -4,21 +4,21 @@ function Card({ image, title, description, action, reverse = false }) {
   return (
     <div
       className={` items-center bg-white md:border md:border-gray-200 rounded-lg md:shadow md:flex-row md:max-w-xl md:my-0  shadow  ${
-        reverse ? "flex-row-reverse " : ""
+        reverse ? "flex-row-reverse" : ""
       }`}
     >
       <div className="flex justify-around ">
         <img
-          className={`w-1/2 h-[300px] rounded-lg  md:object-cover  md:rounded-t-lg md:h-96  md:rounded-none md:rounded-s-lg shadow-md ${
+          className={`w-1/2 h-[300px] rounded-lg  md:object-cover  md:h-96  shadow-md ${
             reverse
-              ? "rounded-l-none z-0 object-cover transform scale-x-[-1]"
+              ? "rounded-l-none z-0 object-cover transform scale-x-[-1] md:scale-x-[1]"
               : "rounded-r-none "
           }`}
           src={image}
           alt={title}
         />
         <div
-          className={`mx-3 w-1/2 flex flex-col gap-3 items-start md:p-4 leading-normal ${
+          className={`mx-3 w-1/2 h-[300px] flex flex-col gap-3 items-start md:p-4 leading-normal ${
             reverse ? "mx-0 z-1 " : ""
           }`}
         >
