@@ -12,7 +12,6 @@ function About() {
       <BenefitsCard />
       <FurtherReadingList />
       <CallToActionSection />
-      <hr className="border-[#60A76F] w-5/6 md:hidden mx-auto" />
     </section>
   );
 }

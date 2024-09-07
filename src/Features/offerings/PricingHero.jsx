@@ -37,7 +37,9 @@ function PricingHero() {
           healing at a cellular level.
         </li>
       </ul>
-      <Button className="py-2 font-semibold my-3 ">Click to Schedule</Button>
+      <Button className="py-2 font-semibold my-3 bg-cGreen-500">
+        Click to Schedule
+      </Button>
     </Box>
   );
 }

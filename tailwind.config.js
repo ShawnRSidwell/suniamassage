@@ -26,13 +26,13 @@ export default {
           800: "#31314f",
           900: "#1e1d2f",
         },
-        //Change color scheme if needed, teal is not being used here
+        //Change color scheme if needed, teal is not being used here cGreen-500 is  #4C786C normally
         cTeal: {
           100: "#F9F9F9",
           200: "#E5F5F5",
           300: "#C1E5C1",
           400: "#7DADB8",
-          500: "#4C786C",
+          500: "#60A76F",
           600: "#2F5F4F",
           700: "#1A3B3B",
           800: "#0B2121",
