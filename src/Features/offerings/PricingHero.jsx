@@ -4,7 +4,7 @@ import Button from "../../ui/Button";
 function PricingHero() {
   return (
     <Box headline="Ayurvedic Massage" className="">
-      <hr className="border-cGreen-400 border-2 w-1/4 my-1 mb-3" />
+      <hr className="border-cGreen-500 border-2 w-1/4 my-1 mb-3" />
       <p className="text-gray-700">
         This is a full body treatment including scalp and belly. It is not going
         to treat specific areas of tension in the body, but is rather a
@@ -37,7 +37,7 @@ function PricingHero() {
           healing at a cellular level.
         </li>
       </ul>
-      <Button className="py-2 font-semibold my-3 bg-cGreen-500">
+      <Button className="py-2 font-semibold my-3 bg-cGreen-600">
         Click to Schedule
       </Button>
     </Box>
