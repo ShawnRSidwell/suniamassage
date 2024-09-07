@@ -10,7 +10,7 @@ function BenefitsCard() {
   return (
     <FeatureCard
       headline="Benefits from Ayurveda Massage"
-      image="/massage-jumbo.jpg"
+      image="/chest-massage.png"
       alt="Large massage picture"
     >
       <p className="w-11/12 py-2 md:py-5 text-gray-700">

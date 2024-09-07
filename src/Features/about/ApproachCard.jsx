@@ -4,7 +4,7 @@ function ApproachCard() {
   return (
     <FeatureCard
       headline="My Approach to Ayurvedic Body Treatment"
-      image="/chest-massage.png"
+      image="/3-oils.png"
       alt="Large massage picture"
       reverse={true}
     >
