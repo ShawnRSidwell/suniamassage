@@ -16,9 +16,9 @@ function FeatureCard({ headline, image, alt, reverse = false, children }) {
       </div>
 
       <img
-        className={`hidden md:col-span-3 md:h-full md:block md:object-cover ${
-          reverse ? "rounded-l" : "rounded-r"
-        } ${reverse ? "order-1" : "order-2"}`}
+        className={`hidden md:col-span-3 md:h-full md:block md:object-cover rounded ${
+          reverse ? "order-1" : "order-2"
+        }`}
         src={image}
         alt={alt}
       />

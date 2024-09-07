@@ -27,7 +27,7 @@ function BenefitsCard() {
       <p className="w-11/12 py-3 md:py-7 text-2xl tracking-wider font-semibold text-gray-600">
         Relief from the following:
       </p>
-      <div className="flex justify-around md:gap-3 md:mx-16 text-gray-800">
+      <div className="flex justify-around md:gap-3 md:mx-16 text-gray-800 md:mb-0 mb-8">
         <Icon icon={FaHeadSideVirus} size="3em">
           Stress
         </Icon>
