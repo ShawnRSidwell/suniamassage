@@ -26,10 +26,11 @@ function Footer() {
             <h2 className="mb-3 text-lg font-bold text-gray-900 uppercase tracking-wider">
               Hours
             </h2>
-            <ul className="text-gray-500 dark:text-gray-400">
+            <ul className="text-gray-500 dark:text-gray-400 md:text-base text-sm">
               {/* TODO: get specific hours */}
-              <li>W 8:30am-11:30am</li>
-              <li>Th and F 8:30am-1pm</li>
+              <li className="md:hidden block">Mon - Thurs</li>
+              <li className="md:block hidden">Monday - Thursday</li>
+              <li> 9am - 1pm</li>
               <li>Evenings & Weekends</li>
               <li>Upon Request</li>
             </ul>
