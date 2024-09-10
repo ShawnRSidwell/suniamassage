@@ -10,7 +10,7 @@ function HomeJumbotron() {
           <div className="text-center flex justify-center">
             <Headline
               color="text-cPurple-500"
-              className="text-4xl font-extrabold tracking-wider leading-none md:text-5xl lg:text-6xl"
+              className="text-4xl font-extrabold tracking-wider leading-none md:text-5xl lg:text-6xl font-serif"
             >
               Revitalize Your Soul
               <hr className="border-4 mt-2 md:mt-3 border-slate-200" />
@@ -20,9 +20,9 @@ function HomeJumbotron() {
             <p className=" text-base text-slate-500 mx-auto lg:text-2xl md:px-12 tracking-tight text-center">
               Experience the transformative power of our unique blend of massage
               techniques, designed to melt away stress, rejuvenate your senses,
-              and restore balance. From deep tissue therapy to luxurious
-              Ayurvedic treatments, let us guide you to a state of deep
-              relaxation and holistic wellness.
+              and restore balance. From Swedish massage to luxurious Ayurvedic
+              body treatments, let us guide you to a state of deep relaxation
+              and holistic wellness.
             </p>
             <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
               <Button
