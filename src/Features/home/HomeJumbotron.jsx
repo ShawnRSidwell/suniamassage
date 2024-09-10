@@ -10,7 +10,7 @@ function HomeJumbotron() {
           <div className="text-center flex justify-center">
             <Headline
               color="text-cPurple-500"
-              className="text-4xl font-extrabold tracking-widest leading-none md:text-5xl lg:text-6xl"
+              className="text-4xl font-extrabold tracking-wider leading-none md:text-5xl lg:text-6xl"
             >
               Revitalize Your Soul
               <hr className="border-4 mt-2 md:mt-3 border-slate-200" />
