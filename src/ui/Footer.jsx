@@ -9,7 +9,7 @@ function Footer() {
           <div className="mb-6 md:mb-0">
             <Logo className="mb-1" size="large" includeIcon={false} />
             <div className="flex flex-col gap-1 ml-1 text-gray-500">
-              <p> Tigard, Oregon 97224</p>
+              <p> Tigard, Oregon 97223</p>
               <p className="flex">
                 <img
                   className="h-5 mt-[2px]"

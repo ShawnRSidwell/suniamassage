@@ -3,14 +3,14 @@ const cardData = [
     title: "Meet Megan",
     image: "/center-megan-profile-pic.jpg",
     description:
-      "Get to know Megan, our experienced Ayurveda practitioner, whose passion for holistic healing has transformed the lives of many. Discover her journey and philosophy on wellness.",
+      "Get to know Megan, our experienced, licensed massage therapist, whose passion for holistic healing has transformed the lives of many. Discover her journey and philosophy on wellness.",
     action: "Get to Know Megan",
   },
   {
     title: "Explore Our Treatments",
     image: "/bowl-and-candles.png",
     description:
-      "Dive into our wide range of Ayurveda treatments designed to rejuvenate your body and mind. Find the perfect treatment for you.",
+      "Dive into our wide range of massage treatments designed to rejuvenate your body, mind and spirit. Find the perfect offering for you.",
     reverse: true,
     action: "View Our Unique Offerings",
   },

@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         cPurple: {
-          100: "#f0eff5",
+          100: "#ececf3",
           200: "#d2cfe2",
           300: "#b3afcf",
           400: "#958fbc",
