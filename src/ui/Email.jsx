@@ -99,7 +99,9 @@ function Email() {
               required
             />
           </div>
-          <Button type={"submit"}>Send message</Button>
+          <div>
+            <Button type={"submit"}>Send message</Button>
+          </div>
         </form>
       </div>
     </section>
