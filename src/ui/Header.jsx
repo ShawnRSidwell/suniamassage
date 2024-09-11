@@ -128,8 +128,8 @@ function Header() {
             src="/sunia-massage-logo-new.png"
           />
           <div className="flex items-center">
-            <Button className={"text-lg"}>
-              <Link to="/contact">Schedule a Treatment</Link>
+            <Button to="/contact" className={"text-lg"}>
+              Schedule a Treatment
             </Button>
           </div>
         </header>

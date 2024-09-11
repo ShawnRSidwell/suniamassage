@@ -26,7 +26,7 @@ function HomeJumbotron() {
             </p>
             <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
               <Button
-                href="#"
+                to="/contact"
                 className="inline-flex justify-center items-center py-3  text-lg tracking-widest font-medium text-center text-white rounded-lg bg-cPurple-500"
               >
                 Schedule Now

@@ -1,6 +1,6 @@
 import Button from "./Button";
 
-function Card({ image, title, description, action, reverse = false }) {
+function Card({ image, title, description, action, to, reverse = false }) {
   return (
     <div
       className={` items-center bg-white md:border md:border-gray-200 rounded-lg md:shadow md:flex-row md:max-w-xl md:my-0  shadow  ${
@@ -30,7 +30,7 @@ function Card({ image, title, description, action, reverse = false }) {
               {description}
             </p>
           </div>
-          <Button className="">{action}</Button>
+          <Button to={to}>{action}</Button>
         </div>
       </div>
     </div>

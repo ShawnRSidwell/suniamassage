@@ -11,6 +11,7 @@ function CardGroup() {
           image={card.image}
           description={card.description}
           action={card.action}
+          to={card.to}
           reverse={card?.reverse | false}
         />
       ))}
