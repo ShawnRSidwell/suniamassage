@@ -6,13 +6,12 @@ function PricingHero() {
     <Box headline="Ayurvedic Massage" className="">
       <hr className="border-cGreen-500 border-2 w-1/4 my-1 mb-3" />
       <p className="text-gray-700">
-        This is a full body treatment including scalp and belly. It is not going
-        to treat specific areas of tension in the body, but is rather a
-        wholistic approach. There will be ALOT of warm oil poured on your body.
-        You will be appropriately draped (breasts and gluteal cleft covered) at
-        all times but it may feel minimal. It is recommended to not wear any
-        undergarments for the ideal treatment. Of course all of this can be
-        modified to suit your comfort level.
+        This is a full body treatment including scalp, face and stomach. It is
+        not going to treat specific areas of tension in the body, but is rather
+        a wholistic approach. You will be appropriately draped (breasts and
+        gluteal cleft covered) at all times but it may feel minimal. It is
+        recommended to not wear any undergarments for the ideal treatment. Of
+        course all of this can be modified to suit your comfort level.
       </p>
       <div className="flex items-baseline text-gray-900 my-3 mt-5 ">
         <span className="text-3xl font-semibold">$</span>
