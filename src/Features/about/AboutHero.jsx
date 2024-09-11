@@ -1,10 +1,11 @@
 import SocialIcons from "../../ui/SocialIcons";
 
+//TODO: rename this `bio section`
 function AboutHero() {
   return (
     <section
       id="bio"
-      className=" w-full bg-cPurple-600  flex justify-center items-center py-6 md:pt-12"
+      className=" w-full bg-cPurple-600  flex justify-center items-center py-6 md:pt-12 scroll-mt-96"
     >
       <div className="flex items-center bg-cBeige-200  rounded-xl px-4 md:px-20 shadow-lg">
         <div className="relative max-w-sm mx-auto md:max-w-6xl   min-w-0 break-words bg-white  mb-6 shadow-lg rounded-lg mt-28 md:mt-8 md:mb-12">
