@@ -19,7 +19,7 @@ function Contact() {
           </Headline>
 
           <p className="mb-8 lg:mb-16 font-light text-center text-gray-500  sm:text-xl md:size-3/4 md:mx-auto">
-            An Ayurveda massage can offer deep relaxation and rejuvenation,
+            An Ayurvedic massage can offer deep relaxation and rejuvenation,
             which can help to relieve stress and anxiety. Schedule a massage now
             and start living healthier and happier.
           </p>

@@ -9,17 +9,17 @@ import { IoBody } from "react-icons/io5";
 function BenefitsCard() {
   return (
     <FeatureCard
-      headline="Benefits from Ayurveda Massage"
+      headline="Benefits from Ayurvedic Massage"
       image="/chest-massage.png"
       alt="Large massage picture"
     >
       <p className="w-11/12 py-2 md:py-5 text-gray-700">
-        Ayurveda Massage offers a multitude of benefits by balancing the
+        Ayurvedic Massage offers a multitude of benefits by balancing the
         body&apos;s energy systems and promoting overall well-being. This
         ancient therapy helps alleviate stress and tension by incorporating
         rhythmic strokes and therapeutic techniques that induce deep relaxation.
         Regular sessions can enhance circulation, improve flexibility, and boost
-        immune function. Additionally, Ayurveda Massage supports mental clarity
+        immune function. Additionally, Ayurvedic Massage supports mental clarity
         and emotional balance, making it a holistic approach to managing modern
         life&apos;s demands. Experience a revitalizing effect that touches every
         aspect of your health and wellness.

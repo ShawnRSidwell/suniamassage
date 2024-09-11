@@ -1,7 +1,7 @@
 const scienceArticles = [
   {
     title:
-      "Pilot study investigating the effects of Ayurvedic Abhyanga massageon subjective stress experience",
+      "Investigating the effects of Ayurvedic Abhyanga massageon subjective stress experience",
     author: "PubMed",
     url: "https://pubmed.ncbi.nlm.nih.gov/21568717/",
   },
@@ -12,10 +12,9 @@ const scienceArticles = [
     url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6598790/",
   },
   {
-    title:
-      "Efficacy & safety evaluation of Ayurvedic treatment (Ashwagandha powder & Sidh Makardhwaj) in rheumatoid arthritis patients",
+    title: "Conceptual and applied study on Abhyanga (Ayurvedic Massage)",
     author: "Indian Journal of Medical Research",
-    url: "https://journals.lww.com/ijmr/fulltext/2015/41010/Efficacy___safety_evaluation_of_Ayurvedic.14.aspx",
+    url: "https://www.worldwidejournals.com/paripex/recent_issues_pdf/2017/July/conceptual-and-applied-study-on-abhyanga-ayurvedic-massage_July_2017_6134716606_1901708.pdf",
   },
 ];
 
