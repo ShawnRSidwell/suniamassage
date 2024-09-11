@@ -3,7 +3,7 @@ const cardData = [
     title: "Meet Megan",
     image: "/center-megan-profile-pic.jpg",
     description:
-      "Get to know Megan, our experienced, licensed massage therapist, whose passion for holistic healing has transformed the lives of many. Discover her journey and philosophy on wellness.",
+      "Get to know Megan, our experienced licensed massage therapist, whose passion for holistic healing has transformed the lives of many. Discover how her love for bodywork emerged.",
     action: "Get to Know Megan",
   },
   {
