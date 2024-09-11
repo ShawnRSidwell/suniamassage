@@ -14,7 +14,7 @@ const cardData = [
       "Dive into our wide range of massage treatments designed to rejuvenate your body, mind and spirit. Find the perfect offering for you.",
     reverse: true,
     action: "View Our Unique Offerings",
-    to: "/offerings",
+    to: "/offerings#pricing",
   },
   {
     title: "Learn the Benefits",

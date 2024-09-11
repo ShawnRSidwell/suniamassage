@@ -2,7 +2,10 @@ import Panel from "./Panel";
 
 function CallToActionSection() {
   return (
-    <div className="my-6 relative flex flex-col justify-center items-center md:py-24 md:my-12">
+    <section
+      id="callToAction"
+      className="my-6 relative flex flex-col justify-center items-center md:py-24 md:my-12"
+    >
       {/* <hr className="border-[#60A76F] w-5/6 md:hidden" /> */}
       <img
         src="blue-flowers-oils-above.jpg"
@@ -15,7 +18,7 @@ function CallToActionSection() {
         className="mb-5 relative z-10"
       ></Panel>
       <hr className="border-cGreen-400 w-5/6 md:hidden" />
-    </div>
+    </section>
   );
 }
 
