@@ -54,7 +54,7 @@ function AboutHero() {
                     daily stressors and being a key component of their wellness
                     management routine. I especially love offering the Ayurvedic
                     body treatment because of its unique ability to transform
-                    and heal the body mind and spirit.
+                    and heal the body, mind and spirit.
                   </p>
                   <p className="font-semibold leading-relaxed tracking-wide text-slate-500 mb-4">
                     The first time I experienced the healing quality of the
