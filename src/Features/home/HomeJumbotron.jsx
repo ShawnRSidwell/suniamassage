@@ -19,7 +19,7 @@ function HomeJumbotron() {
           <div className="flex flex-col gap-8">
             <p className=" text-base text-slate-500 mx-auto lg:text-2xl md:px-12 tracking-tight text-center">
               Experience the transformative power of our unique blend of massage
-              techniques, designed to melt away stress, rejuvenate your senses,
+              techniques designed to melt away stress, rejuvenate your senses,
               and restore balance. From Swedish massage to luxurious Ayurvedic
               body treatments, let us guide you to a state of deep relaxation
               and holistic wellness.
