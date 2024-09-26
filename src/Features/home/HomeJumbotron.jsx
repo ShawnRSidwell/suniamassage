@@ -6,13 +6,13 @@ function HomeJumbotron() {
   return (
     <Jumbotron image="hand" color="beige">
       <Container>
-        <div className="flex flex-col gap-4 md:gap-10 bg-white p-12 rounded-lg shadow-lg ">
+        <div className="flex flex-col gap-4 md:gap-5 bg-white p-12  rounded-lg shadow-lg ">
           <div className="text-center flex justify-center">
             <Headline
               color="text-cPurple-500"
-              className="text-4xl font-extrabold tracking-wider leading-none md:text-5xl lg:text-6xl font-serif"
+              className="text-4xl font-thin tracking-wider leading-none md:text-5xl lg:text-6xl font-serif"
             >
-              Revitalize Your Soul
+              <p>Relax, Rebalance, Restore</p>
               <hr className="border-4 mt-2 md:mt-3 border-slate-200" />
             </Headline>
           </div>

@@ -15,7 +15,7 @@ function AboutHero() {
                 <div className="relative">
                   <img
                     src="/center-megan-profile-pic.jpg"
-                    className="shadow-xl rounded-full align-middle border-none absolute -m-[4.75em] -ml-[6.25rem]  max-w-[200px]"
+                    className="shadow-xl rounded-full align-middle border-none object-cover absolute -m-[4.75em] -ml-[6.25rem]  h-40 w-50 max-w-[200px]"
                   />
                 </div>
               </div>
@@ -25,7 +25,7 @@ function AboutHero() {
               <div>
                 <img
                   src="/center-megan-profile-pic.jpg"
-                  className="shadow-xl rounded-full align-middle  w-[400px] h-[350px]  hidden md:block md:my-6"
+                  className="shadow-xl rounded-full align-middle object-cover w-[400px] h-[400px]  hidden md:block md:my-6"
                 />
               </div>
               <div className="text-center md:mt-2 md:flex md:flex-col md:items-start md:justify-center  md:ml-12 md:mb-16">
