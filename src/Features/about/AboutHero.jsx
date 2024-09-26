@@ -36,7 +36,7 @@ function AboutHero() {
                   (She/Her)
                 </div>
                 <div className="font-bold uppercase text-xs opacity-75 text-cGreen-600 hover:text-slate-400 md:text-lg ">
-                  LMT
+                  LMT OR #28047
                 </div>
                 <div className="text-xs mt-0 mb-2 text-cGreen-600 font-light tracking-wide uppercase md:text-lg">
                   Portland, Oregon

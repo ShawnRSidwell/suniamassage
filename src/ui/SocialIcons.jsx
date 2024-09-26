@@ -1,7 +1,10 @@
 function SocialIcons({ className }) {
   return (
     <div className={`flex space-x-3 gap-4  sm:mt-0 ${className}`}>
-      <a href="#" className="text-gray-500 hover:text-gray-900 ">
+      <a
+        href="https://www.facebook.com/profile.php?id=61566073823343"
+        className="text-gray-500 hover:text-gray-900 "
+      >
         <svg
           className="w-5 h-5"
           fill="currentColor"
@@ -15,7 +18,10 @@ function SocialIcons({ className }) {
           />
         </svg>
       </a>
-      <a href="#" className="text-gray-500 hover:text-gray-900 ">
+      <a
+        href="https://www.instagram.com/suniamassage/"
+        className="text-gray-500 hover:text-gray-900 "
+      >
         <svg
           className="w-5 h-5"
           fill="currentColor"
