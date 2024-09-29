@@ -3,6 +3,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: { sans: "quicksand", serif: "lora" },
       colors: {
         cPurple: {
           100: "#ececf3",

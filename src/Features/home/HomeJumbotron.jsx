@@ -10,14 +10,14 @@ function HomeJumbotron() {
           <div className="text-center flex justify-center">
             <Headline
               color="text-cPurple-500"
-              className="text-4xl font-thin tracking-wider leading-none md:text-5xl lg:text-6xl font-serif"
+              className="text-4xl font-thin tracking-wider leading-none md:text-5xl lg:text-6xl"
             >
               <p>Relax, Rebalance, Restore</p>
               <hr className="border-4 mt-2 md:mt-3 border-slate-200" />
             </Headline>
           </div>
           <div className="flex flex-col gap-8">
-            <p className=" text-base text-slate-500 mx-auto lg:text-2xl md:px-12 tracking-tight text-center">
+            <p className=" text-base font-light text-slate-500 mx-auto lg:text-2xl md:px-12 tracking-tight text-center font-serif">
               Experience the transformative power of our unique blend of massage
               techniques designed to melt away stress, rejuvenate your senses,
               and restore balance. From Swedish massage to luxurious Ayurvedic
