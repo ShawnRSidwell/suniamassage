@@ -114,7 +114,6 @@ function Email() {
               <option value="75 min">Focused Serenity - 75 min</option>
               <option value="60 min">Essential Relaxation - 60 min</option>
             </select>
-            {error && <p className="text-red-600">{error}</p>}
           </div>
           <div className="sm:col-span-2">
             <label
