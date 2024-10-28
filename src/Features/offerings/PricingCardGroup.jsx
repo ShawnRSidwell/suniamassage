@@ -16,8 +16,8 @@ function PricingCardGroup() {
         unique blend of Swedish massage, myofascial release, trigger point
         therapy and deep tissue massage to bring targeted relief. Each session
         will address your body as a whole. Choosing longer massages will create
-        more space to address specific areas of focus. My approach is customized
-        to meet the unique needs of each client.
+        more space to address specific areas of focus. Our approach is
+        customized to meet the unique needs of each client.
       </p>
       <div className="flex flex-col gap-3 md:gap-8 md:flex-row justify-center items-center">
         {pricing.map((pricing) => (

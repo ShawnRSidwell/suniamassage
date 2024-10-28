@@ -10,7 +10,7 @@ const pricing = [
     time: 75,
   },
   {
-    title: "Deep bliss",
+    title: "Deep Bliss",
     price: 110,
     time: 90,
   },

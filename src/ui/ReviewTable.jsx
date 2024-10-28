@@ -27,9 +27,9 @@ const ReviewTable = () => {
   return (
     <div className="flex items-center justify-center bg-cPurple-600 py-5 md:py-12">
       <Container className="p-4 md:p-8">
-        <div className=" flex items-center justify-center py-7 bg-white rounded-2xl shadow-lg px-4 ">
+        <div className=" flex items-center justify-center py-7 bg-white rounded-2xl shadow-lg px-4">
           <div className="w-full text-gray-800">
-            <div className="w-full max-w-6xl mx-auto">
+            <div className="w-full max-w-7xl mx-auto">
               <div className="text-center max-w-xl mx-auto">
                 <h2 className="text-5xl md:text-7xl font-bold mb-5 text-gray-600 md:mt-5">
                   What Clients <br />
