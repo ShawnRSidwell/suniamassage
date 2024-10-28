@@ -78,7 +78,7 @@ function Header() {
                     to="/contact"
                     className=" hover:text-gray-300 font-semibold"
                   >
-                    Schedule a Treatment
+                    Schedule Treatment
                   </Link>
                 </li>
               </ul>
@@ -129,7 +129,7 @@ function Header() {
           />
           <div className="flex items-center">
             <Button to="/contact" className={"text-lg"}>
-              Schedule a Treatment
+              Schedule Treatment
             </Button>
           </div>
         </header>
