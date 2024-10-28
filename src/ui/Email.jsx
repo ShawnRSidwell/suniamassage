@@ -1,7 +1,6 @@
 import emailjs from "@emailjs/browser";
 
 import { useState } from "react";
-import Button from "./Button";
 
 const SERVICE_ID = import.meta.env.VITE_EMAIL_SERVICE_ID;
 const TEMPLATE_ID = import.meta.env.VITE_EMAIL_TEMPLATE_ID;
@@ -15,17 +14,34 @@ function Email() {
     message: "",
   });
 
+  const [error, setError] = useState("");
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
       ...prevData,
       [name]: value,
     }));
+    if (name === "subject" && value) {
+      setError("");
+    }
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID).then(
+    if (!formData.subject) {
+      setError("Please select a massage option.");
+      return;
+    }
+    console.log(formData);
+    const templateParams = {
+      name: formData.name,
+      email: formData.email,
+      subject: formData.subject,
+      message: formData.message,
+    };
+
+    emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, USER_ID).then(
       (result) => {
         console.log("Email sent successfully:", result.text);
         alert("Email sent successfully!");
@@ -82,12 +98,6 @@ function Email() {
             />
           </div>
           <div className="relative inline-block text-left">
-            <label
-              htmlFor="options"
-              className="block text-sm font-medium text-gray-700 mb-1"
-            >
-              Choose Massage Option:
-            </label>
             <select
               id="options"
               name="subject"
@@ -96,11 +106,15 @@ function Email() {
               onChange={handleChange}
               required
             >
+              <option value="" disabled hidden>
+                Choose Massage Option
+              </option>
               <option value="ayurveda">Ayurveda - 120 min</option>
-              <option value="90">Deep Bliss - 90 min</option>
-              <option value="75">Focused Serenity - 75 min</option>
-              <option value="60">Essential Relaxation - 60 min</option>
+              <option value="90 min">Deep Bliss - 90 min</option>
+              <option value="75 min">Focused Serenity - 75 min</option>
+              <option value="60 min">Essential Relaxation - 60 min</option>
             </select>
+            {error && <p className="text-red-600">{error}</p>}
           </div>
           <div className="sm:col-span-2">
             <label
@@ -119,7 +133,12 @@ function Email() {
             />
           </div>
           <div>
-            <Button type={"submit"}>Send message</Button>
+            <button
+              type="submit"
+              className={`px-4 py-2 bg-cPurple-600 text-white rounded-md focus:outline-none hover:bg-cPurple-300`}
+            >
+              Send message
+            </button>
           </div>
         </form>
       </div>
