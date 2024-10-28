@@ -12,7 +12,7 @@ function Contact() {
       <section className="gradientbackground p-3 md:pt-10 flex flex-col justify-center items-center">
         <div
           id="contact"
-          className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md bg-white rounded-md md:border-[1px]  shadow-xl"
+          className="py-8 px-4 mx-auto max-w-screen-md bg-white rounded-md md:border-[1px]  shadow-xl"
         >
           <Headline className="text-center my-5">
             Schedule a Massage with Me!

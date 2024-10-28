@@ -1,6 +1,7 @@
 import emailjs from "emailjs-com";
 import { useState } from "react";
 import Button from "./Button";
+import Dropdown from "./Dropdown";
 
 const SERVICE_ID = import.meta.env.VITE_EMAIL_SERVICE_ID;
 const TEMPLATE_ID = import.meta.env.VITE_EMAIL_TEMPLATE_ID;
@@ -81,13 +82,13 @@ function Email() {
               required
             />
           </div>
-
+          <Dropdown />
           <div className="sm:col-span-2">
             <label
               htmlFor="message"
               className="block mb-2 text-sm font-medium text-gray-900 "
             >
-              Message
+              Additional Notes
             </label>
             <textarea
               className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 "
