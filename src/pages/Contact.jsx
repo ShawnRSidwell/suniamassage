@@ -1,8 +1,6 @@
 import Email from "../ui/Email";
 import Headline from "../ui/Headline";
 
-const date = new Date().getFullYear();
-
 function Contact() {
   return (
     <div
