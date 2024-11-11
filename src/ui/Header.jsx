@@ -75,7 +75,7 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="/contact"
+                    to="https://app.acuityscheduling.com/schedule.php?owner=33772237"
                     className=" hover:text-gray-300 font-semibold"
                   >
                     Schedule Treatment
@@ -128,7 +128,10 @@ function Header() {
             src="/sunia-massage-logo-new.png"
           />
           <div className="flex items-center">
-            <Button to="/contact" className={"text-lg"}>
+            <Button
+              to="https://app.acuityscheduling.com/schedule.php?owner=33772237"
+              className={"text-lg"}
+            >
               Schedule Treatment
             </Button>
           </div>

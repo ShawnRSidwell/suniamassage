@@ -11,7 +11,10 @@ function Panel({ headline, buttonText, className, children }) {
       <div className="text-center md:font-medium  md:text-lg text-gray-600 my-3 md:my-5">
         {children}
       </div>
-      <Button to="/contact#contact" className="font-semibold ">
+      <Button
+        to="https://app.acuityscheduling.com/schedule.php?owner=33772237"
+        className="font-semibold "
+      >
         {buttonText}
       </Button>
     </section>

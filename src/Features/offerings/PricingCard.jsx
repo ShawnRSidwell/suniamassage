@@ -12,7 +12,9 @@ function PricingCard({ title, price, time, includes, excludes }) {
         </span>
       </div>
       <div className="my-8">
-        <Button>Click to Schedule</Button>
+        <Button to="https://app.acuityscheduling.com/schedule.php?owner=33772237">
+          Click to Schedule
+        </Button>
       </div>
     </div>
   );
