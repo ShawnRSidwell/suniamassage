@@ -1,14 +1,15 @@
 import Logo from "./Logo";
 import SocialIcons from "./SocialIcons";
+import { MdEmail } from "react-icons/md";
 
 function Footer() {
   return (
     <footer className="p-4 bg-white sm:p-6 mt-3 md:mt-0">
       <div className="mx-auto max-w-screen-xl">
-        <div className="flex justify-center gap-11 md:gap-0 md:justify-between">
+        <div className="flex justify-center gap-8 md:gap-0 md:justify-between">
           <div className="mb-6 md:mb-0">
-            <Logo className="mb-1" size="large" includeIcon={false} />
-            <div className="flex flex-col gap-1 ml-1 text-gray-500">
+            <div className="flex flex-col gap-1 ml-3 text-gray-500 ">
+              <Logo className="mb-1" size="large" includeIcon={false} />
               <p> Tigard, Oregon 97223</p>
               <p className="flex">
                 <img
@@ -16,18 +17,21 @@ function Footer() {
                   src="/phone-icon.png"
                   alt="phone icon"
                 />
-                (503) 502-3943
+                <span className="pl-1">(503) 502-3943</span>
+              </p>
+              <p className="flex">
+                <MdEmail className="my-1 ml-[2px]" />
+                <span className="pl-1">megan@suniamassage.com</span>
               </p>
               <SocialIcons className={"md:flex hidden "} />
             </div>
           </div>
 
-          <div>
-            <h2 className="mb-3 text-lg font-bold text-gray-900 uppercase tracking-wider">
+          <div className="flex flex-col justify-center">
+            <h2 className="mb-3 mt-8 text-lg font-bold text-gray-900 uppercase tracking-wider">
               Hours
             </h2>
             <ul className="text-gray-500 dark:text-gray-400 md:text-base text-sm">
-              {/* TODO: get specific hours */}
               <li className="md:hidden block">Mon - Thurs</li>
               <li className="md:block hidden">Monday - Thursday</li>
               <li> 9am - 1pm</li>
