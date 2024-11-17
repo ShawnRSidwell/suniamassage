@@ -6,11 +6,17 @@ import CallToActionSection from "../ui/CallToActionSection";
 function Offerings() {
   return (
     <section id="Offerings">
-      <PricingHeadline />
-      <PricingHero />
-      <PricingCardGroup />
-      <CallToActionSection />
-      <hr className="border-cGreen-500 w-5/6 my-5 mx-auto " />
+      {/* <PricingHeadline /> */}
+      <div className="md:bg-cPurple-400 md:py-12 md:px-6">
+        <div className="bg-white pt-4 md:w-11/12 rounded-md mx-auto md:py-6">
+          <PricingHero />
+          <PricingCardGroup />
+        </div>
+      </div>
+      <div className="md:-mt-12">
+        <CallToActionSection />
+      </div>
+      {/* <hr className="border-cGreen-500 w-5/6 my-5 mx-auto " /> */}
     </section>
   );
 }

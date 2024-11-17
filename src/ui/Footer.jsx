@@ -35,8 +35,8 @@ function Footer() {
               <li className="md:hidden block">Mon - Thurs</li>
               <li className="md:block hidden">Monday - Thursday</li>
               <li> 9am - 1pm</li>
-              <li>Evenings & Weekends</li>
-              <li>Upon Request</li>
+              <li>Special Hours:</li>
+              <li>Nights and Weekends</li>
             </ul>
           </div>
         </div>
