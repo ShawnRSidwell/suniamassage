@@ -17,13 +17,13 @@ function HomeJumbotron() {
             </Headline>
           </div>
           <div className="flex flex-col gap-8">
-            <p className=" text-base font-light text-slate-500 mx-auto lg:text-2xl md:px-12 tracking-tight text-center font-serif">
+            <h2 className=" text-base font-light text-slate-500 mx-auto lg:text-2xl md:px-12 tracking-tight text-center font-serif">
               Experience the transformative power of our unique blend of massage
               techniques designed to melt away stress, rejuvenate your senses,
               and restore balance. From Swedish massage to luxurious Ayurvedic
               body treatments, let us guide you to a state of deep relaxation
               and holistic wellness.
-            </p>
+            </h2>
             <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
               <Button
                 to="https://app.acuityscheduling.com/schedule.php?owner=33772237"
