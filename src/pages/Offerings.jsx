@@ -8,7 +8,7 @@ function Offerings() {
     <section id="Offerings">
       {/* <PricingHeadline /> */}
       <div className="md:bg-cPurple-400 md:py-12 md:px-6">
-        <div className="bg-white pt-4 md:w-11/12 rounded-md mx-auto md:py-6">
+        <div className="bg-white pt-4 md:w-11/12 rounded-md mx-auto md:py-6 shadow-lg">
           <PricingHero />
           <PricingCardGroup />
         </div>
