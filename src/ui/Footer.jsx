@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="p-4 bg-white sm:p-6 mt-3 md:mt-0">
       <div className="mx-auto max-w-screen-xl">
-        <div className="flex justify-center gap-8 md:gap-0 md:justify-between">
+        <div className="flex justify-center gap-8 md:gap-0 md:justify-between md:text-md text-sm">
           <div className="mb-6 md:mb-0">
             <div className="flex flex-col gap-1 ml-3 text-gray-500 ">
               <Logo className="mb-1" size="large" includeIcon={false} />
@@ -26,12 +26,11 @@ function Footer() {
               <SocialIcons className={"md:flex hidden "} />
             </div>
           </div>
-
           <div className="flex flex-col justify-center">
-            <h2 className="mb-3 mt-8 text-lg font-bold text-gray-900 uppercase tracking-wider">
+            <h2 className="mb-3 mt-8 font-bold text-gray-900 uppercase tracking-wider">
               Hours
             </h2>
-            <ul className="text-gray-500 dark:text-gray-400 md:text-base text-sm">
+            <ul className="text-gray-500 dark:text-gray-400 md:text-base">
               <li className="md:hidden block">Mon - Thurs</li>
               <li className="md:block hidden">Monday - Thursday</li>
               <li> 9am - 1pm</li>

@@ -4,7 +4,7 @@ import pricing from "../../data/Pricing";
 
 function PricingCardGroup() {
   return (
-    <div className="p-5 md:mb-5 max-w-screen-lg md:mx-auto border-2 mx-3 md:border-0">
+    <div className="p-5 md:mb-5 max-w-screen-lg md:mx-auto border-2 mx-3 md:border-0 md:pt-12">
       <Headline className="text-center">
         Explore Our Additional Offerings
       </Headline>
@@ -19,7 +19,7 @@ function PricingCardGroup() {
         more space to address specific areas of focus. Our approach is
         customized to meet the unique needs of each client.
       </p>
-      <div className="flex flex-col gap-3 md:gap-8 md:flex-row justify-center items-center">
+      <div className="flex flex-col gap-3 md:gap-8 md:flex-row justify-center items-center md:mt-12">
         {pricing.map((pricing) => (
           <PricingCard
             key={pricing.price}

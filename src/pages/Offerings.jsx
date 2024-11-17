@@ -8,14 +8,14 @@ function Offerings() {
     <section id="Offerings">
       {/* <PricingHeadline /> */}
       <div className="md:bg-cPurple-400 md:py-12 md:px-6">
-        <div className="bg-white pt-4 md:w-11/12 rounded-md mx-auto md:py-6 shadow-lg">
+        <div className="bg-white pt-4 md:w-11/12 rounded-md mx-auto md:py-12 shadow-lg">
           <PricingHero />
           <PricingCardGroup />
         </div>
       </div>
-      <div className="md:-mt-12">
+      {/* <div className="md:-mt-12">
         <CallToActionSection />
-      </div>
+      </div> */}
       {/* <hr className="border-cGreen-500 w-5/6 my-5 mx-auto " /> */}
     </section>
   );
