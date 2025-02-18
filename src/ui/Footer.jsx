@@ -17,13 +17,13 @@ function Footer() {
                   src="/phone-icon.png"
                   alt="phone icon"
                 />
-                <a href="tel:+1234567890" className="pl-1">
+                <a href="tel:+15035023943" className="pl-1">
                   (503) 502-3943
                 </a>
               </p>
               <p className="flex">
                 <MdEmail className="my-1 ml-[2px]" />
-                <a href="mailto:someone@example.com" className="pl-1">
+                <a href="mailto:megan@suniamassage.com" className="pl-1">
                   megan@suniamassage.com
                 </a>
               </p>
