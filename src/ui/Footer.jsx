@@ -17,11 +17,15 @@ function Footer() {
                   src="/phone-icon.png"
                   alt="phone icon"
                 />
-                <span className="pl-1">(503) 502-3943</span>
+                <a href="tel:+1234567890" className="pl-1">
+                  (503) 502-3943
+                </a>
               </p>
               <p className="flex">
                 <MdEmail className="my-1 ml-[2px]" />
-                <span className="pl-1">megan@suniamassage.com</span>
+                <a href="mailto:someone@example.com" className="pl-1">
+                  megan@suniamassage.com
+                </a>
               </p>
               <SocialIcons className={"md:flex hidden "} />
             </div>
