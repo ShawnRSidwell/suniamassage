@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet";
 import Email from "../ui/Email";
 import Headline from "../ui/Headline";
 

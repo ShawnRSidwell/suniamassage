@@ -1,8 +1,8 @@
-import { Helmet } from "react-helmet";
 import PricingCardGroup from "../Features/offerings/PricingCardGroup";
 import PricingHeadline from "../Features/offerings/PricingHeadline";
 import PricingHero from "../Features/offerings/PricingHero";
 import CallToActionSection from "../ui/CallToActionSection";
+import { Helmet } from "react-helmet-async";
 
 function Offerings() {
   return (

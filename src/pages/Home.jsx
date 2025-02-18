@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import HomeJumbotron from "../Features/home/HomeJumbotron";
 import CallToActionSection from "../ui/CallToActionSection";
 import CardGroup from "../ui/CardGroup";
@@ -8,7 +8,7 @@ function Home() {
   return (
     <section id="home">
       <Helmet>
-        <title>Home | Ayurveda Services</title>
+        <title> Home | Ayurveda Services</title>
         <meta
           name="description"
           content="Explore our methods for Ayurvedic massage services."

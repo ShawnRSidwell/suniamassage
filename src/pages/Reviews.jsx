@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import CallToActionSection from "../ui/CallToActionSection";
 
 import ReviewTable from "../ui/ReviewTable";

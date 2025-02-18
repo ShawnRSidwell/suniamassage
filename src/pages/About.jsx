@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import AboutHero from "../Features/about/AboutHero";
 import ApproachCard from "../Features/about/ApproachCard";
 import BenefitsCard from "../Features/about/BenefitsCard";

@@ -37,7 +37,10 @@ function PricingHero() {
           </li>
         </ul>
         <div className="py-3">
-          <Button className="py-2 font-semibold bg-cGreen-600">
+          <Button
+            to="https://app.acuityscheduling.com/schedule.php?owner=33772237"
+            className="py-2 font-semibold bg-cGreen-600"
+          >
             Click to Schedule
           </Button>
         </div>
